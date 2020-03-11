@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 
 namespace CapaDeDatos
 {
-    class Areas
+    public class Areas
     {
         public int idArea { get; set; }
         public string Nombre { get; set; }
@@ -34,12 +34,23 @@ namespace CapaDeDatos
             var conexion = new Conexion();
             var parametros = new[]
             {
-                new SqlParameter("@idArea",area.idArea),
+                new SqlParameter("idArea",area.idArea),
                 new SqlParameter("@Nombre",area.Nombre),
-                new SqlParameter("@Departamento",area.Departamento)
+                new SqlParameter("@Departamento", area.Departamento)
             };
 
             return conexion.EjecutarStoredProcedure("SP_ActualizarArea", parametros);
+        }
+
+        public string EliminarArea(int idArea)
+        {
+            var conexion = new Conexion();
+            var parametros = new[]
+            {
+                new SqlParameter("@idArea",idArea)
+            };
+
+            return conexion.EjecutarStoredProcedure("SP_EliminarArea", parametros);
         }
 
 

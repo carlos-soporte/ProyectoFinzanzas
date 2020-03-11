@@ -1,12 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data;
 
 namespace CapaDeNegocios
 {
-    class Areas
+    public class Areas
     {
+        public DataTable ListarAreas()
+        {
+            var area = new CapaDeDatos.Areas();
+
+            return area.ListarAreas();
+        }
+
+        public string InsertarArea(CapaDeDatos.Areas area)
+        {
+            return area.InsertarArea(area);
+        }
+
+        public string ActualizarArea(CapaDeDatos.Areas area)
+        {
+            return area.ActualizarArea(area);
+        }
+
+        public string EliminarArea(int idArea)
+        {
+            var area = new CapaDeDatos.Areas();
+
+            return area.EliminarArea(idArea);
+        }
+       
     }
 }
