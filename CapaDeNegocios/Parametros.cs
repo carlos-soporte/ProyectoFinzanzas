@@ -7,7 +7,7 @@ using System.Data;
 
 namespace CapaDeNegocios
 {
-    class Parametros
+    public class Parametros
     {
         public DataTable ListarParametros()
         {
