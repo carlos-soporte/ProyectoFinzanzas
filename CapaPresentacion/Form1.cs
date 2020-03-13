@@ -15,6 +15,8 @@ namespace CapaPresentacion
         public Form1()
         {
             InitializeComponent();
+
         }
+
     }
 }
