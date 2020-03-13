@@ -299,8 +299,8 @@ GO
 
 --Listar Periodo.
 CREATE PROCEDURE SP_ListarPeriodo
-@idParametro INT
+@idPeriodo INT
 AS
 BEGIN
-	SELECT * FROM Periodos WHERE idParametro=@idParametro
+	SELECT * FROM Periodos WHERE idPeriodo=@idPeriodo
 END
