@@ -25,63 +25,63 @@ namespace CapaPresentacion
 
         private void btnListar_Click(object sender, EventArgs e)
         {
-            var tabla = new FormularioTablaMaestra();
+            var FormularioTablaMaestra = new FormularioTablaMaestra();
             if (PanelVisualizador.Controls.Count >= default(int))
             {
                 //PanelVisualizador.Controls.RemoveAt(default(int));
                 PanelVisualizador.Controls.Clear();
             }
-            tabla.TopLevel = false;
-            tabla.Dock = DockStyle.Fill;
-            tabla.FormBorderStyle = FormBorderStyle.None;
-            PanelVisualizador.Controls.Add(tabla);
-            tabla.Show();
+            FormularioTablaMaestra.TopLevel = false;
+            FormularioTablaMaestra.Dock = DockStyle.Fill;
+            FormularioTablaMaestra.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioTablaMaestra);
+            FormularioTablaMaestra.Show();
             
         }
 
         private void iconButton6_Click(object sender, EventArgs e)
         {
-            var tabla = new FormularioTablaMaestra();
+            var FormularioTablaMaestra = new FormularioTablaMaestra();
             if (PanelVisualizador.Controls.Count >= default(int))
             {
                 //PanelVisualizador.Controls.RemoveAt(default(int));
                 PanelVisualizador.Controls.Clear();
             }
-            tabla.TopLevel = false;
-            tabla.Dock = DockStyle.Fill;
-            tabla.FormBorderStyle = FormBorderStyle.None;
-            PanelVisualizador.Controls.Add(tabla);
-            tabla.Show();
+            FormularioTablaMaestra.TopLevel = false;
+            FormularioTablaMaestra.Dock = DockStyle.Fill;
+            FormularioTablaMaestra.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioTablaMaestra);
+            FormularioTablaMaestra.Show();
         }
 
         private void iconButton7_Click(object sender, EventArgs e)
         {
-            var tabla = new FormularioTablaMaestra();
+            var FormularioTablaMaestra = new FormularioTablaMaestra();
             if (PanelVisualizador.Controls.Count >= default(int))
             {
                 //PanelVisualizador.Controls.RemoveAt(default(int));
                 PanelVisualizador.Controls.Clear();
             }
-            tabla.TopLevel = false;
-            tabla.Dock = DockStyle.Fill;
-            tabla.FormBorderStyle = FormBorderStyle.None;
-            PanelVisualizador.Controls.Add(tabla);
-            tabla.Show();
+            FormularioTablaMaestra.TopLevel = false;
+            FormularioTablaMaestra.Dock = DockStyle.Fill;
+            FormularioTablaMaestra.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioTablaMaestra);
+            FormularioTablaMaestra.Show();
         }
 
         private void iconButton8_Click(object sender, EventArgs e)
         {
-            var tabla = new FormularioTablaMaestra();
+            var FormularioTablaMaestra = new FormularioTablaMaestra();
             if (PanelVisualizador.Controls.Count >= default(int))
             {
                 //PanelVisualizador.Controls.RemoveAt(default(int));
                 PanelVisualizador.Controls.Clear();
             }
-            tabla.TopLevel = false;
-            tabla.Dock = DockStyle.Fill;
-            tabla.FormBorderStyle = FormBorderStyle.None;
-            PanelVisualizador.Controls.Add(tabla);
-            tabla.Show();
+            FormularioTablaMaestra.TopLevel = false;
+            FormularioTablaMaestra.Dock = DockStyle.Fill;
+            FormularioTablaMaestra.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioTablaMaestra);
+            FormularioTablaMaestra.Show();
         }
 
         private void iconButton12_Click(object sender, EventArgs e)
