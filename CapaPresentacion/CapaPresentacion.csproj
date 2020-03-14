@@ -94,10 +94,31 @@
     <Compile Include="FormularioMenu.Designer.cs">
       <DependentUpon>FormularioMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioUsuarios.Designer.cs">
+      <DependentUpon>FormularioUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormularioAreas.resx">
+      <DependentUpon>FormularioAreas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormularioMenu.resx">
       <DependentUpon>FormularioMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioParametros.resx">
+      <DependentUpon>FormularioParametros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioPeriodos.resx">
+      <DependentUpon>FormularioPeriodos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioTablaMaestra.resx">
+      <DependentUpon>FormularioTablaMaestra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioUsuarios.resx">
+      <DependentUpon>FormularioUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

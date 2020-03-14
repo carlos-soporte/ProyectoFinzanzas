@@ -17,5 +17,191 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
+
+        private void FormularioMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnListar_Click(object sender, EventArgs e)
+        {
+            var tabla = new FormularioTablaMaestra();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            tabla.TopLevel = false;
+            tabla.Dock = DockStyle.Fill;
+            tabla.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(tabla);
+            tabla.Show();
+            
+        }
+
+        private void iconButton6_Click(object sender, EventArgs e)
+        {
+            var tabla = new FormularioTablaMaestra();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            tabla.TopLevel = false;
+            tabla.Dock = DockStyle.Fill;
+            tabla.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(tabla);
+            tabla.Show();
+        }
+
+        private void iconButton7_Click(object sender, EventArgs e)
+        {
+            var tabla = new FormularioTablaMaestra();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            tabla.TopLevel = false;
+            tabla.Dock = DockStyle.Fill;
+            tabla.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(tabla);
+            tabla.Show();
+        }
+
+        private void iconButton8_Click(object sender, EventArgs e)
+        {
+            var tabla = new FormularioTablaMaestra();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            tabla.TopLevel = false;
+            tabla.Dock = DockStyle.Fill;
+            tabla.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(tabla);
+            tabla.Show();
+        }
+
+        private void iconButton12_Click(object sender, EventArgs e)
+        {
+            var formularioAreas = new FormularioAreas();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            formularioAreas.TopLevel = false;
+            formularioAreas.Dock = DockStyle.Fill;
+            formularioAreas.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(formularioAreas);
+            formularioAreas.Show();
+        }
+
+        private void iconButton11_Click(object sender, EventArgs e)
+        {
+            var formularioAreas = new FormularioAreas();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            formularioAreas.TopLevel = false;
+            formularioAreas.Dock = DockStyle.Fill;
+            formularioAreas.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(formularioAreas);
+            formularioAreas.Show();
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            var formularioAreas = new FormularioAreas();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            formularioAreas.TopLevel = false;
+            formularioAreas.Dock = DockStyle.Fill;
+            formularioAreas.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(formularioAreas);
+            formularioAreas.Show();
+        }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            var formularioAreas = new FormularioAreas();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            formularioAreas.TopLevel = false;
+            formularioAreas.Dock = DockStyle.Fill;
+            formularioAreas.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(formularioAreas);
+            formularioAreas.Show();
+        }
+
+        private void iconButton17_Click(object sender, EventArgs e)
+        {
+            var FormularioUsuarios = new FormularioUsuarios();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioUsuarios.TopLevel = false;
+            FormularioUsuarios.Dock = DockStyle.Fill;
+            FormularioUsuarios.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioUsuarios);
+            FormularioUsuarios.Show();
+        }
+
+        private void iconButton16_Click(object sender, EventArgs e)
+        {
+            var FormularioUsuarios = new FormularioUsuarios();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioUsuarios.TopLevel = false;
+            FormularioUsuarios.Dock = DockStyle.Fill;
+            FormularioUsuarios.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioUsuarios);
+            FormularioUsuarios.Show();
+        }
+
+        private void iconButton15_Click(object sender, EventArgs e)
+        {
+            var FormularioUsuarios = new FormularioUsuarios();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioUsuarios.TopLevel = false;
+            FormularioUsuarios.Dock = DockStyle.Fill;
+            FormularioUsuarios.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioUsuarios);
+            FormularioUsuarios.Show();
+        }
+
+        private void iconButton14_Click(object sender, EventArgs e)
+        {
+            var FormularioUsuarios = new FormularioUsuarios();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioUsuarios.TopLevel = false;
+            FormularioUsuarios.Dock = DockStyle.Fill;
+            FormularioUsuarios.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioUsuarios);
+            FormularioUsuarios.Show();
+        }
     }
 }

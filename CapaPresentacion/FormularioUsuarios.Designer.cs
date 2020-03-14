@@ -1,6 +1,6 @@
 ﻿namespace CapaPresentacion
 {
-    partial class FormularioPeriodos
+    partial class FormularioUsuarios
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // FormularioPeriodos
+            // FormularioUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(787, 498);
+            this.ClientSize = new System.Drawing.Size(803, 537);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormularioPeriodos";
-            this.Text = "FormularioPeriodos";
+            this.Name = "FormularioUsuarios";
+            this.Text = "FormularioUsuarios";
             this.ResumeLayout(false);
 
         }
