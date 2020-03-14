@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MaterialSkin.Controls;
 
 namespace CapaPresentacion
 {
-    public partial class Menu : Form
+    public partial class FormularioMenu : MaterialForm
     {
-        public Menu()
+        public FormularioMenu()
         {
             InitializeComponent();
         }
