@@ -16,5 +16,11 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
+
+        private void FormularioAreas_Load(object sender, EventArgs e)
+        {
+            var AreaNegocio = new CapaDeNegocios.Areas();
+            dataGridView1.DataSource = AreaNegocio.ListarAreas();
+        }
     }
 }

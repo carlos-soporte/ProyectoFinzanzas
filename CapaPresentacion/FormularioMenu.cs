@@ -251,6 +251,14 @@ namespace CapaPresentacion
             formularioAreas.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(formularioAreas);
             formularioAreas.Show();
+
+            formularioAreas.btnGuardar.Enabled = false;
+            formularioAreas.btnActualizar.Enabled = false;
+            formularioAreas.btnEliminar.Enabled = false;
+
+            formularioAreas.btnGuardar.Visible = false;
+            formularioAreas.btnActualizar.Visible = false;
+            formularioAreas.btnEliminar.Visible = false;
         }
 
         private void iconButton11_Click(object sender, EventArgs e)
@@ -291,6 +299,12 @@ namespace CapaPresentacion
             formularioAreas.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(formularioAreas);
             formularioAreas.Show();
+
+            formularioAreas.btnActualizar.Enabled = false;
+            formularioAreas.btnEliminar.Enabled = false;
+
+            formularioAreas.btnActualizar.Visible = false;
+            formularioAreas.btnEliminar.Visible = false;
         }
 
         private void iconButton4_Click(object sender, EventArgs e)
@@ -331,6 +345,12 @@ namespace CapaPresentacion
             formularioAreas.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(formularioAreas);
             formularioAreas.Show();
+
+            formularioAreas.btnGuardar.Enabled = false;
+            formularioAreas.btnEliminar.Enabled = false;
+
+            formularioAreas.btnGuardar.Visible = false;
+            formularioAreas.btnEliminar.Visible = false;
         }
 
         private void iconButton3_Click(object sender, EventArgs e)
@@ -371,6 +391,12 @@ namespace CapaPresentacion
             formularioAreas.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(formularioAreas);
             formularioAreas.Show();
+
+            formularioAreas.btnGuardar.Enabled = false;
+            formularioAreas.btnActualizar.Enabled = false;
+
+            formularioAreas.btnGuardar.Visible = false;
+            formularioAreas.btnActualizar.Visible = false;
         }
 
         private void iconButton17_Click(object sender, EventArgs e)
