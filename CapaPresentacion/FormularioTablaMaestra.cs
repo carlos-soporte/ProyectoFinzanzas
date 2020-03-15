@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaPresentacion.Properties;
 
 namespace CapaPresentacion
 {
@@ -194,6 +195,28 @@ namespace CapaPresentacion
 
             }
             
+        }
+
+        private void btnVerParametros_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormularioMenu.ActiveForm.Hide();
+
+            var formulariomenu = new FormularioMenu();
+            formulariomenu.Show();
+
+            var formularioParametros = new FormularioParametros();
+            if (formulariomenu.PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                formulariomenu.Controls.Clear();
+            }
+            formularioParametros.TopLevel = false;
+            formularioParametros.Dock = DockStyle.Fill;
+            formularioParametros.FormBorderStyle = FormBorderStyle.None;
+            formulariomenu.Controls.Add(formularioParametros);
+            formularioParametros.Show();
+
         }
     }
 }

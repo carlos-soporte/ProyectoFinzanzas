@@ -66,6 +66,22 @@
             this.iconPictureBox4 = new FontAwesome.Sharp.IconPictureBox();
             this.PanelVisualizador = new System.Windows.Forms.Panel();
             this.materialTabSelector2 = new MaterialSkin.Controls.MaterialTabSelector();
+            this.Parametros = new System.Windows.Forms.TabPage();
+            this.Periodos = new System.Windows.Forms.TabPage();
+            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
+            this.iconPictureBox6 = new FontAwesome.Sharp.IconPictureBox();
+            this.btnPeriodos = new FontAwesome.Sharp.IconButton();
+            this.btnParametros = new FontAwesome.Sharp.IconButton();
+            this.iconButton5 = new FontAwesome.Sharp.IconButton();
+            this.iconButton6 = new FontAwesome.Sharp.IconButton();
+            this.btnListarPeriodo = new FontAwesome.Sharp.IconButton();
+            this.btnListarParametro = new FontAwesome.Sharp.IconButton();
+            this.btnInsertarParametro = new FontAwesome.Sharp.IconButton();
+            this.btnInsertarPeriodo = new FontAwesome.Sharp.IconButton();
+            this.btnActualizarParametro = new FontAwesome.Sharp.IconButton();
+            this.btnActualizarPeriodo = new FontAwesome.Sharp.IconButton();
+            this.btnEliminarPeriodo = new FontAwesome.Sharp.IconButton();
+            this.btnEliminarParametro = new FontAwesome.Sharp.IconButton();
             this.PanelPrincipal.SuspendLayout();
             this.PanelMiniMenu.SuspendLayout();
             this.materialTabControl1.SuspendLayout();
@@ -77,6 +93,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
             this.Usuarios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).BeginInit();
+            this.Parametros.SuspendLayout();
+            this.Periodos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelPrincipal
@@ -103,8 +123,10 @@
             // materialTabControl1
             // 
             this.materialTabControl1.Controls.Add(this.Inicio);
-            this.materialTabControl1.Controls.Add(this.TablaMaestra);
             this.materialTabControl1.Controls.Add(this.Areas);
+            this.materialTabControl1.Controls.Add(this.TablaMaestra);
+            this.materialTabControl1.Controls.Add(this.Parametros);
+            this.materialTabControl1.Controls.Add(this.Periodos);
             this.materialTabControl1.Controls.Add(this.Usuarios);
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -129,7 +151,7 @@
             this.Inicio.Location = new System.Drawing.Point(4, 28);
             this.Inicio.Name = "Inicio";
             this.Inicio.Padding = new System.Windows.Forms.Padding(3);
-            this.Inicio.Size = new System.Drawing.Size(192, 505);
+            this.Inicio.Size = new System.Drawing.Size(195, 505);
             this.Inicio.TabIndex = 0;
             this.Inicio.Text = "Inicio";
             // 
@@ -206,10 +228,10 @@
             this.iconPictureBox5.ForeColor = System.Drawing.Color.Fuchsia;
             this.iconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.Laptop;
             this.iconPictureBox5.IconColor = System.Drawing.Color.Fuchsia;
-            this.iconPictureBox5.IconSize = 186;
+            this.iconPictureBox5.IconSize = 189;
             this.iconPictureBox5.Location = new System.Drawing.Point(3, 3);
             this.iconPictureBox5.Name = "iconPictureBox5";
-            this.iconPictureBox5.Size = new System.Drawing.Size(186, 452);
+            this.iconPictureBox5.Size = new System.Drawing.Size(189, 452);
             this.iconPictureBox5.TabIndex = 3;
             this.iconPictureBox5.TabStop = false;
             // 
@@ -227,7 +249,7 @@
             this.iconButton1.Location = new System.Drawing.Point(3, 455);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Rotation = 0D;
-            this.iconButton1.Size = new System.Drawing.Size(186, 47);
+            this.iconButton1.Size = new System.Drawing.Size(189, 47);
             this.iconButton1.TabIndex = 1;
             this.iconButton1.Text = "Salir";
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -755,6 +777,340 @@
             this.materialTabSelector2.TabIndex = 2;
             this.materialTabSelector2.Text = "materialTabSelector2";
             // 
+            // Parametros
+            // 
+            this.Parametros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.Parametros.Controls.Add(this.btnEliminarParametro);
+            this.Parametros.Controls.Add(this.btnActualizarParametro);
+            this.Parametros.Controls.Add(this.btnInsertarParametro);
+            this.Parametros.Controls.Add(this.btnListarParametro);
+            this.Parametros.Controls.Add(this.iconButton5);
+            this.Parametros.Controls.Add(this.btnParametros);
+            this.Parametros.Controls.Add(this.iconPictureBox1);
+            this.Parametros.Location = new System.Drawing.Point(4, 28);
+            this.Parametros.Name = "Parametros";
+            this.Parametros.Size = new System.Drawing.Size(195, 505);
+            this.Parametros.TabIndex = 4;
+            this.Parametros.Text = "Parametros";
+            // 
+            // Periodos
+            // 
+            this.Periodos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.Periodos.Controls.Add(this.btnEliminarPeriodo);
+            this.Periodos.Controls.Add(this.btnActualizarPeriodo);
+            this.Periodos.Controls.Add(this.btnInsertarPeriodo);
+            this.Periodos.Controls.Add(this.btnListarPeriodo);
+            this.Periodos.Controls.Add(this.iconButton6);
+            this.Periodos.Controls.Add(this.btnPeriodos);
+            this.Periodos.Controls.Add(this.iconPictureBox6);
+            this.Periodos.Location = new System.Drawing.Point(4, 28);
+            this.Periodos.Name = "Periodos";
+            this.Periodos.Size = new System.Drawing.Size(195, 505);
+            this.Periodos.TabIndex = 5;
+            this.Periodos.Text = "Periodos";
+            // 
+            // iconPictureBox1
+            // 
+            this.iconPictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.iconPictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconPictureBox1.ForeColor = System.Drawing.Color.Black;
+            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Unity;
+            this.iconPictureBox1.IconColor = System.Drawing.Color.Black;
+            this.iconPictureBox1.IconSize = 137;
+            this.iconPictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.iconPictureBox1.Name = "iconPictureBox1";
+            this.iconPictureBox1.Size = new System.Drawing.Size(195, 137);
+            this.iconPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.iconPictureBox1.TabIndex = 9;
+            this.iconPictureBox1.TabStop = false;
+            // 
+            // iconPictureBox6
+            // 
+            this.iconPictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.iconPictureBox6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconPictureBox6.ForeColor = System.Drawing.Color.Black;
+            this.iconPictureBox6.IconChar = FontAwesome.Sharp.IconChar.Unity;
+            this.iconPictureBox6.IconColor = System.Drawing.Color.Black;
+            this.iconPictureBox6.IconSize = 137;
+            this.iconPictureBox6.Location = new System.Drawing.Point(0, 0);
+            this.iconPictureBox6.Name = "iconPictureBox6";
+            this.iconPictureBox6.Size = new System.Drawing.Size(195, 137);
+            this.iconPictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.iconPictureBox6.TabIndex = 9;
+            this.iconPictureBox6.TabStop = false;
+            // 
+            // btnPeriodos
+            // 
+            this.btnPeriodos.BackColor = System.Drawing.Color.White;
+            this.btnPeriodos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPeriodos.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnPeriodos.FlatAppearance.BorderSize = 2;
+            this.btnPeriodos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnPeriodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPeriodos.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnPeriodos.ForeColor = System.Drawing.Color.Black;
+            this.btnPeriodos.IconChar = FontAwesome.Sharp.IconChar.TelegramPlane;
+            this.btnPeriodos.IconColor = System.Drawing.Color.Black;
+            this.btnPeriodos.IconSize = 40;
+            this.btnPeriodos.Location = new System.Drawing.Point(0, 137);
+            this.btnPeriodos.Name = "btnPeriodos";
+            this.btnPeriodos.Rotation = 0D;
+            this.btnPeriodos.Size = new System.Drawing.Size(195, 56);
+            this.btnPeriodos.TabIndex = 10;
+            this.btnPeriodos.Text = "Periodos";
+            this.btnPeriodos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPeriodos.UseVisualStyleBackColor = false;
+            // 
+            // btnParametros
+            // 
+            this.btnParametros.BackColor = System.Drawing.Color.White;
+            this.btnParametros.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnParametros.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnParametros.FlatAppearance.BorderSize = 2;
+            this.btnParametros.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnParametros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnParametros.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnParametros.ForeColor = System.Drawing.Color.Black;
+            this.btnParametros.IconChar = FontAwesome.Sharp.IconChar.TelegramPlane;
+            this.btnParametros.IconColor = System.Drawing.Color.Black;
+            this.btnParametros.IconSize = 40;
+            this.btnParametros.Location = new System.Drawing.Point(0, 137);
+            this.btnParametros.Name = "btnParametros";
+            this.btnParametros.Rotation = 0D;
+            this.btnParametros.Size = new System.Drawing.Size(195, 56);
+            this.btnParametros.TabIndex = 10;
+            this.btnParametros.Text = "Paràmetros";
+            this.btnParametros.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnParametros.UseVisualStyleBackColor = false;
+            // 
+            // iconButton5
+            // 
+            this.iconButton5.BackColor = System.Drawing.Color.Transparent;
+            this.iconButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.iconButton5.FlatAppearance.BorderSize = 0;
+            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton5.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButton5.ForeColor = System.Drawing.Color.Black;
+            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.FreeCodeCamp;
+            this.iconButton5.IconColor = System.Drawing.Color.Black;
+            this.iconButton5.IconSize = 40;
+            this.iconButton5.Location = new System.Drawing.Point(0, 458);
+            this.iconButton5.Name = "iconButton5";
+            this.iconButton5.Rotation = 0D;
+            this.iconButton5.Size = new System.Drawing.Size(195, 47);
+            this.iconButton5.TabIndex = 11;
+            this.iconButton5.Text = "Salir";
+            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton5.UseVisualStyleBackColor = false;
+            // 
+            // iconButton6
+            // 
+            this.iconButton6.BackColor = System.Drawing.Color.Transparent;
+            this.iconButton6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButton6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.iconButton6.FlatAppearance.BorderSize = 0;
+            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton6.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButton6.ForeColor = System.Drawing.Color.Black;
+            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.FreeCodeCamp;
+            this.iconButton6.IconColor = System.Drawing.Color.Black;
+            this.iconButton6.IconSize = 40;
+            this.iconButton6.Location = new System.Drawing.Point(0, 458);
+            this.iconButton6.Name = "iconButton6";
+            this.iconButton6.Rotation = 0D;
+            this.iconButton6.Size = new System.Drawing.Size(195, 47);
+            this.iconButton6.TabIndex = 11;
+            this.iconButton6.Text = "Salir";
+            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton6.UseVisualStyleBackColor = false;
+            // 
+            // btnListarPeriodo
+            // 
+            this.btnListarPeriodo.BackColor = System.Drawing.Color.Transparent;
+            this.btnListarPeriodo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnListarPeriodo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnListarPeriodo.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnListarPeriodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListarPeriodo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnListarPeriodo.ForeColor = System.Drawing.Color.Black;
+            this.btnListarPeriodo.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
+            this.btnListarPeriodo.IconColor = System.Drawing.Color.Black;
+            this.btnListarPeriodo.IconSize = 40;
+            this.btnListarPeriodo.Location = new System.Drawing.Point(0, 193);
+            this.btnListarPeriodo.Name = "btnListarPeriodo";
+            this.btnListarPeriodo.Rotation = 0D;
+            this.btnListarPeriodo.Size = new System.Drawing.Size(195, 47);
+            this.btnListarPeriodo.TabIndex = 12;
+            this.btnListarPeriodo.Text = "Listar";
+            this.btnListarPeriodo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnListarPeriodo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnListarPeriodo.UseVisualStyleBackColor = false;
+            this.btnListarPeriodo.Click += new System.EventHandler(this.btnListarPeriodo_Click);
+            // 
+            // btnListarParametro
+            // 
+            this.btnListarParametro.BackColor = System.Drawing.Color.Transparent;
+            this.btnListarParametro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnListarParametro.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnListarParametro.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnListarParametro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListarParametro.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnListarParametro.ForeColor = System.Drawing.Color.Black;
+            this.btnListarParametro.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
+            this.btnListarParametro.IconColor = System.Drawing.Color.Black;
+            this.btnListarParametro.IconSize = 40;
+            this.btnListarParametro.Location = new System.Drawing.Point(0, 193);
+            this.btnListarParametro.Name = "btnListarParametro";
+            this.btnListarParametro.Rotation = 0D;
+            this.btnListarParametro.Size = new System.Drawing.Size(195, 47);
+            this.btnListarParametro.TabIndex = 12;
+            this.btnListarParametro.Text = "Listar";
+            this.btnListarParametro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnListarParametro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnListarParametro.UseVisualStyleBackColor = false;
+            this.btnListarParametro.Click += new System.EventHandler(this.btnListarParametro_Click);
+            // 
+            // btnInsertarParametro
+            // 
+            this.btnInsertarParametro.BackColor = System.Drawing.Color.Transparent;
+            this.btnInsertarParametro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertarParametro.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInsertarParametro.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnInsertarParametro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInsertarParametro.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnInsertarParametro.ForeColor = System.Drawing.Color.Black;
+            this.btnInsertarParametro.IconChar = FontAwesome.Sharp.IconChar.Inbox;
+            this.btnInsertarParametro.IconColor = System.Drawing.Color.Black;
+            this.btnInsertarParametro.IconSize = 40;
+            this.btnInsertarParametro.Location = new System.Drawing.Point(0, 240);
+            this.btnInsertarParametro.Name = "btnInsertarParametro";
+            this.btnInsertarParametro.Rotation = 0D;
+            this.btnInsertarParametro.Size = new System.Drawing.Size(195, 47);
+            this.btnInsertarParametro.TabIndex = 13;
+            this.btnInsertarParametro.Text = "Insertar";
+            this.btnInsertarParametro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInsertarParametro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnInsertarParametro.UseVisualStyleBackColor = false;
+            this.btnInsertarParametro.Click += new System.EventHandler(this.btnInsertarParametro_Click);
+            // 
+            // btnInsertarPeriodo
+            // 
+            this.btnInsertarPeriodo.BackColor = System.Drawing.Color.Transparent;
+            this.btnInsertarPeriodo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertarPeriodo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInsertarPeriodo.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnInsertarPeriodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInsertarPeriodo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnInsertarPeriodo.ForeColor = System.Drawing.Color.Black;
+            this.btnInsertarPeriodo.IconChar = FontAwesome.Sharp.IconChar.Inbox;
+            this.btnInsertarPeriodo.IconColor = System.Drawing.Color.Black;
+            this.btnInsertarPeriodo.IconSize = 40;
+            this.btnInsertarPeriodo.Location = new System.Drawing.Point(0, 240);
+            this.btnInsertarPeriodo.Name = "btnInsertarPeriodo";
+            this.btnInsertarPeriodo.Rotation = 0D;
+            this.btnInsertarPeriodo.Size = new System.Drawing.Size(195, 47);
+            this.btnInsertarPeriodo.TabIndex = 13;
+            this.btnInsertarPeriodo.Text = "Insertar";
+            this.btnInsertarPeriodo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInsertarPeriodo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnInsertarPeriodo.UseVisualStyleBackColor = false;
+            this.btnInsertarPeriodo.Click += new System.EventHandler(this.btnInsertarPeriodo_Click);
+            // 
+            // btnActualizarParametro
+            // 
+            this.btnActualizarParametro.BackColor = System.Drawing.Color.Transparent;
+            this.btnActualizarParametro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizarParametro.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnActualizarParametro.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnActualizarParametro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnActualizarParametro.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnActualizarParametro.ForeColor = System.Drawing.Color.Black;
+            this.btnActualizarParametro.IconChar = FontAwesome.Sharp.IconChar.Rev;
+            this.btnActualizarParametro.IconColor = System.Drawing.Color.Black;
+            this.btnActualizarParametro.IconSize = 40;
+            this.btnActualizarParametro.Location = new System.Drawing.Point(0, 287);
+            this.btnActualizarParametro.Name = "btnActualizarParametro";
+            this.btnActualizarParametro.Rotation = 0D;
+            this.btnActualizarParametro.Size = new System.Drawing.Size(195, 47);
+            this.btnActualizarParametro.TabIndex = 14;
+            this.btnActualizarParametro.Text = "Actualizar";
+            this.btnActualizarParametro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnActualizarParametro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnActualizarParametro.UseVisualStyleBackColor = false;
+            this.btnActualizarParametro.Click += new System.EventHandler(this.btnActualizarParametro_Click);
+            // 
+            // btnActualizarPeriodo
+            // 
+            this.btnActualizarPeriodo.BackColor = System.Drawing.Color.Transparent;
+            this.btnActualizarPeriodo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizarPeriodo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnActualizarPeriodo.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnActualizarPeriodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnActualizarPeriodo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnActualizarPeriodo.ForeColor = System.Drawing.Color.Black;
+            this.btnActualizarPeriodo.IconChar = FontAwesome.Sharp.IconChar.Rev;
+            this.btnActualizarPeriodo.IconColor = System.Drawing.Color.Black;
+            this.btnActualizarPeriodo.IconSize = 40;
+            this.btnActualizarPeriodo.Location = new System.Drawing.Point(0, 287);
+            this.btnActualizarPeriodo.Name = "btnActualizarPeriodo";
+            this.btnActualizarPeriodo.Rotation = 0D;
+            this.btnActualizarPeriodo.Size = new System.Drawing.Size(195, 47);
+            this.btnActualizarPeriodo.TabIndex = 14;
+            this.btnActualizarPeriodo.Text = "Actualizar";
+            this.btnActualizarPeriodo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnActualizarPeriodo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnActualizarPeriodo.UseVisualStyleBackColor = false;
+            this.btnActualizarPeriodo.Click += new System.EventHandler(this.btnActualizarPeriodo_Click);
+            // 
+            // btnEliminarPeriodo
+            // 
+            this.btnEliminarPeriodo.BackColor = System.Drawing.Color.Transparent;
+            this.btnEliminarPeriodo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEliminarPeriodo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEliminarPeriodo.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnEliminarPeriodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminarPeriodo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnEliminarPeriodo.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminarPeriodo.IconChar = FontAwesome.Sharp.IconChar.Dragon;
+            this.btnEliminarPeriodo.IconColor = System.Drawing.Color.Black;
+            this.btnEliminarPeriodo.IconSize = 40;
+            this.btnEliminarPeriodo.Location = new System.Drawing.Point(0, 334);
+            this.btnEliminarPeriodo.Name = "btnEliminarPeriodo";
+            this.btnEliminarPeriodo.Rotation = 0D;
+            this.btnEliminarPeriodo.Size = new System.Drawing.Size(195, 47);
+            this.btnEliminarPeriodo.TabIndex = 15;
+            this.btnEliminarPeriodo.Text = "Eliminar";
+            this.btnEliminarPeriodo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEliminarPeriodo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEliminarPeriodo.UseVisualStyleBackColor = false;
+            this.btnEliminarPeriodo.Click += new System.EventHandler(this.btnEliminarPeriodo_Click);
+            // 
+            // btnEliminarParametro
+            // 
+            this.btnEliminarParametro.BackColor = System.Drawing.Color.Transparent;
+            this.btnEliminarParametro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEliminarParametro.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEliminarParametro.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnEliminarParametro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminarParametro.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnEliminarParametro.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminarParametro.IconChar = FontAwesome.Sharp.IconChar.Dragon;
+            this.btnEliminarParametro.IconColor = System.Drawing.Color.Black;
+            this.btnEliminarParametro.IconSize = 40;
+            this.btnEliminarParametro.Location = new System.Drawing.Point(0, 334);
+            this.btnEliminarParametro.Name = "btnEliminarParametro";
+            this.btnEliminarParametro.Rotation = 0D;
+            this.btnEliminarParametro.Size = new System.Drawing.Size(195, 47);
+            this.btnEliminarParametro.TabIndex = 15;
+            this.btnEliminarParametro.Text = "Eliminar";
+            this.btnEliminarParametro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEliminarParametro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEliminarParametro.UseVisualStyleBackColor = false;
+            this.btnEliminarParametro.Click += new System.EventHandler(this.btnEliminarParametro_Click);
+            // 
             // FormularioMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -763,6 +1119,7 @@
             this.Controls.Add(this.materialTabSelector2);
             this.Controls.Add(this.PanelVisualizador);
             this.Controls.Add(this.PanelPrincipal);
+            this.MaximizeBox = false;
             this.Name = "FormularioMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menù Principal";
@@ -779,6 +1136,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
             this.Usuarios.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox4)).EndInit();
+            this.Parametros.ResumeLayout(false);
+            this.Periodos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -787,7 +1148,6 @@
 
         private System.Windows.Forms.Panel PanelPrincipal;
         private System.Windows.Forms.Panel PanelMiniMenu;
-        private System.Windows.Forms.Panel PanelVisualizador;
         private MaterialSkin.Controls.MaterialTabControl materialTabControl1;
         private System.Windows.Forms.TabPage Inicio;
         private System.Windows.Forms.TabPage TablaMaestra;
@@ -823,5 +1183,22 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private MaterialSkin.Controls.MaterialTabSelector materialTabSelector2;
+        public System.Windows.Forms.Panel PanelVisualizador;
+        private System.Windows.Forms.TabPage Parametros;
+        private FontAwesome.Sharp.IconButton btnActualizarParametro;
+        private FontAwesome.Sharp.IconButton btnInsertarParametro;
+        private FontAwesome.Sharp.IconButton btnListarParametro;
+        private FontAwesome.Sharp.IconButton iconButton5;
+        private FontAwesome.Sharp.IconButton btnParametros;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
+        private System.Windows.Forms.TabPage Periodos;
+        private FontAwesome.Sharp.IconButton btnInsertarPeriodo;
+        private FontAwesome.Sharp.IconButton btnListarPeriodo;
+        private FontAwesome.Sharp.IconButton iconButton6;
+        private FontAwesome.Sharp.IconButton btnPeriodos;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox6;
+        private FontAwesome.Sharp.IconButton btnEliminarParametro;
+        private FontAwesome.Sharp.IconButton btnEliminarPeriodo;
+        private FontAwesome.Sharp.IconButton btnActualizarPeriodo;
     }
 }

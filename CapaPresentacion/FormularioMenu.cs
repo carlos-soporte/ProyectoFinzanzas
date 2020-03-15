@@ -35,6 +35,22 @@ namespace CapaPresentacion
             btnActualizarUsuario.Enabled = true;
             btnEliminarUsuario.Enabled = true;
 
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+
+            btnListarTabla.Enabled = false;
+            btnActualizarTabla.Enabled = true;
+            btnInsertarTabla.Enabled = true;
+            btnEliminarTabla.Enabled = true;
+
+
             var FormularioTablaMaestra = new FormularioTablaMaestra();
             if (PanelVisualizador.Controls.Count >= default(int))
             {
@@ -54,12 +70,6 @@ namespace CapaPresentacion
             FormularioTablaMaestra.btnActualizar.Visible = false;
             FormularioTablaMaestra.btnGuardar.Visible = false;
             FormularioTablaMaestra.btnEliminar.Visible = false;
-
-            btnListarTabla.Enabled = false;
-            btnActualizarTabla.Enabled = true;
-            btnInsertarTabla.Enabled = true;
-            btnEliminarTabla.Enabled = true;
-
 
         }
 
@@ -75,6 +85,21 @@ namespace CapaPresentacion
             btnActualizarUsuario.Enabled = true;
             btnEliminarUsuario.Enabled = true;
 
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+
+            btnListarTabla.Enabled = true;
+            btnActualizarTabla.Enabled = true;
+            btnInsertarTabla.Enabled = false;
+            btnEliminarTabla.Enabled = true;
+
             var FormularioTablaMaestra = new FormularioTablaMaestra();
             if (PanelVisualizador.Controls.Count >= default(int))
             {
@@ -91,11 +116,6 @@ namespace CapaPresentacion
 
             FormularioTablaMaestra.btnActualizar.Visible = false;
             FormularioTablaMaestra.btnEliminar.Visible = false;
-
-            btnListarTabla.Enabled = true;
-            btnActualizarTabla.Enabled = true;
-            btnInsertarTabla.Enabled = false;
-            btnEliminarTabla.Enabled = true;
         }
 
         private void iconButton7_Click(object sender, EventArgs e)
@@ -110,6 +130,21 @@ namespace CapaPresentacion
             btnActualizarUsuario.Enabled = true;
             btnEliminarUsuario.Enabled = true;
 
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+
+            btnListarTabla.Enabled = true;
+            btnActualizarTabla.Enabled = false;
+            btnInsertarTabla.Enabled = true;
+            btnEliminarTabla.Enabled = true;
+
             var FormularioTablaMaestra = new FormularioTablaMaestra();
             if (PanelVisualizador.Controls.Count >= default(int))
             {
@@ -128,10 +163,7 @@ namespace CapaPresentacion
             FormularioTablaMaestra.btnEliminar.Visible = false;
             FormularioTablaMaestra.btnGuardar.Visible = false;
 
-            btnListarTabla.Enabled = true;
-            btnActualizarTabla.Enabled = false;
-            btnInsertarTabla.Enabled = true;
-            btnEliminarTabla.Enabled = true;
+            
         }
 
         private void iconButton8_Click(object sender, EventArgs e)
@@ -145,6 +177,21 @@ namespace CapaPresentacion
             btnInsertarUsuario.Enabled = true;
             btnActualizarUsuario.Enabled = true;
             btnEliminarUsuario.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+
+            btnListarTabla.Enabled = true;
+            btnActualizarTabla.Enabled = true;
+            btnInsertarTabla.Enabled = true;
+            btnEliminarTabla.Enabled = false;
 
             var FormularioTablaMaestra = new FormularioTablaMaestra();
             if (PanelVisualizador.Controls.Count >= default(int))
@@ -164,10 +211,6 @@ namespace CapaPresentacion
             FormularioTablaMaestra.btnActualizar.Visible = false;
             FormularioTablaMaestra.btnGuardar.Visible = false;
 
-            btnListarTabla.Enabled = true;
-            btnActualizarTabla.Enabled = true;
-            btnInsertarTabla.Enabled = true;
-            btnEliminarTabla.Enabled = false;
         }
 
         private void iconButton12_Click(object sender, EventArgs e)
@@ -186,6 +229,16 @@ namespace CapaPresentacion
             btnInsertarArea.Enabled = true;
             btnActualizarArea.Enabled = true;
             btnEliminarArea.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
 
             var formularioAreas = new FormularioAreas();
             if (PanelVisualizador.Controls.Count >= default(int))
@@ -217,6 +270,16 @@ namespace CapaPresentacion
             btnActualizarUsuario.Enabled = true;
             btnEliminarUsuario.Enabled = true;
 
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+
             var formularioAreas = new FormularioAreas();
             if (PanelVisualizador.Controls.Count >= default(int))
             {
@@ -246,6 +309,16 @@ namespace CapaPresentacion
             btnInsertarArea.Enabled = true;
             btnActualizarArea.Enabled = false;
             btnEliminarArea.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
 
             var formularioAreas = new FormularioAreas();
             if (PanelVisualizador.Controls.Count >= default(int))
@@ -277,6 +350,16 @@ namespace CapaPresentacion
             btnActualizarArea.Enabled = true;
             btnEliminarArea.Enabled = false;
 
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+
             var formularioAreas = new FormularioAreas();
             if (PanelVisualizador.Controls.Count >= default(int))
             {
@@ -306,6 +389,16 @@ namespace CapaPresentacion
             btnInsertarUsuario.Enabled = true;
             btnActualizarUsuario.Enabled = true;
             btnEliminarUsuario.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
 
             var FormularioUsuarios = new FormularioUsuarios();
             if (PanelVisualizador.Controls.Count >= default(int))
@@ -338,6 +431,16 @@ namespace CapaPresentacion
             btnActualizarUsuario.Enabled = true;
             btnEliminarUsuario.Enabled = true;
 
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+
             var FormularioUsuarios = new FormularioUsuarios();
             if (PanelVisualizador.Controls.Count >= default(int))
             {
@@ -367,6 +470,16 @@ namespace CapaPresentacion
             btnInsertarUsuario.Enabled = true;
             btnActualizarUsuario.Enabled = false;
             btnEliminarUsuario.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
 
             var FormularioUsuarios = new FormularioUsuarios();
             if (PanelVisualizador.Controls.Count >= default(int))
@@ -398,6 +511,16 @@ namespace CapaPresentacion
             btnActualizarUsuario.Enabled = true;
             btnEliminarUsuario.Enabled = false;
 
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+
             var FormularioUsuarios = new FormularioUsuarios();
             if (PanelVisualizador.Controls.Count >= default(int))
             {
@@ -409,6 +532,230 @@ namespace CapaPresentacion
             FormularioUsuarios.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioUsuarios);
             FormularioUsuarios.Show();
+        }
+
+        private void btnListarParametro_Click(object sender, EventArgs e)
+        {
+            btnListarTabla.Enabled = true;
+            btnActualizarTabla.Enabled = true;
+            btnInsertarTabla.Enabled = true;
+            btnEliminarTabla.Enabled = true;
+
+            btnListarArea.Enabled = true;
+            btnInsertarArea.Enabled = true;
+            btnActualizarArea.Enabled = true;
+            btnEliminarArea.Enabled = true;
+
+            btnListarUsuario.Enabled = true;
+            btnInsertarUsuario.Enabled = true;
+            btnActualizarUsuario.Enabled = true;
+            btnEliminarUsuario.Enabled = true;
+
+            btnListarParametro.Enabled = false;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+        }
+
+        private void btnInsertarParametro_Click(object sender, EventArgs e)
+        {
+            btnListarTabla.Enabled = true;
+            btnActualizarTabla.Enabled = true;
+            btnInsertarTabla.Enabled = true;
+            btnEliminarTabla.Enabled = true;
+
+            btnListarArea.Enabled = true;
+            btnInsertarArea.Enabled = true;
+            btnActualizarArea.Enabled = true;
+            btnEliminarArea.Enabled = true;
+
+            btnListarUsuario.Enabled = true;
+            btnInsertarUsuario.Enabled = true;
+            btnActualizarUsuario.Enabled = true;
+            btnEliminarUsuario.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = false;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+        }
+
+        private void btnActualizarParametro_Click(object sender, EventArgs e)
+        {
+            btnListarTabla.Enabled = true;
+            btnActualizarTabla.Enabled = true;
+            btnInsertarTabla.Enabled = true;
+            btnEliminarTabla.Enabled = true;
+
+            btnListarArea.Enabled = true;
+            btnInsertarArea.Enabled = true;
+            btnActualizarArea.Enabled = true;
+            btnEliminarArea.Enabled = true;
+
+            btnListarUsuario.Enabled = true;
+            btnInsertarUsuario.Enabled = true;
+            btnActualizarUsuario.Enabled = true;
+            btnEliminarUsuario.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = false;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+        }
+
+        private void btnEliminarParametro_Click(object sender, EventArgs e)
+        {
+            btnListarTabla.Enabled = true;
+            btnActualizarTabla.Enabled = true;
+            btnInsertarTabla.Enabled = true;
+            btnEliminarTabla.Enabled = true;
+
+            btnListarArea.Enabled = true;
+            btnInsertarArea.Enabled = true;
+            btnActualizarArea.Enabled = true;
+            btnEliminarArea.Enabled = true;
+
+            btnListarUsuario.Enabled = true;
+            btnInsertarUsuario.Enabled = true;
+            btnActualizarUsuario.Enabled = true;
+            btnEliminarUsuario.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = false;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+        }
+
+        private void btnListarPeriodo_Click(object sender, EventArgs e)
+        {
+            btnListarTabla.Enabled = true;
+            btnActualizarTabla.Enabled = true;
+            btnInsertarTabla.Enabled = true;
+            btnEliminarTabla.Enabled = true;
+
+            btnListarArea.Enabled = true;
+            btnInsertarArea.Enabled = true;
+            btnActualizarArea.Enabled = true;
+            btnEliminarArea.Enabled = true;
+
+            btnListarUsuario.Enabled = true;
+            btnInsertarUsuario.Enabled = true;
+            btnActualizarUsuario.Enabled = true;
+            btnEliminarUsuario.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = false;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+        }
+
+        private void btnInsertarPeriodo_Click(object sender, EventArgs e)
+        {
+            btnListarTabla.Enabled = true;
+            btnActualizarTabla.Enabled = true;
+            btnInsertarTabla.Enabled = true;
+            btnEliminarTabla.Enabled = true;
+
+            btnListarArea.Enabled = true;
+            btnInsertarArea.Enabled = true;
+            btnActualizarArea.Enabled = true;
+            btnEliminarArea.Enabled = true;
+
+            btnListarUsuario.Enabled = true;
+            btnInsertarUsuario.Enabled = true;
+            btnActualizarUsuario.Enabled = true;
+            btnEliminarUsuario.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = false;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = true;
+        }
+
+        private void btnActualizarPeriodo_Click(object sender, EventArgs e)
+        {
+            btnListarTabla.Enabled = true;
+            btnActualizarTabla.Enabled = true;
+            btnInsertarTabla.Enabled = true;
+            btnEliminarTabla.Enabled = true;
+
+            btnListarArea.Enabled = true;
+            btnInsertarArea.Enabled = true;
+            btnActualizarArea.Enabled = true;
+            btnEliminarArea.Enabled = true;
+
+            btnListarUsuario.Enabled = true;
+            btnInsertarUsuario.Enabled = true;
+            btnActualizarUsuario.Enabled = true;
+            btnEliminarUsuario.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = false;
+            btnEliminarPeriodo.Enabled = true;
+        }
+
+        private void btnEliminarPeriodo_Click(object sender, EventArgs e)
+        {
+            btnListarTabla.Enabled = true;
+            btnActualizarTabla.Enabled = true;
+            btnInsertarTabla.Enabled = true;
+            btnEliminarTabla.Enabled = true;
+
+            btnListarArea.Enabled = true;
+            btnInsertarArea.Enabled = true;
+            btnActualizarArea.Enabled = true;
+            btnEliminarArea.Enabled = true;
+
+            btnListarUsuario.Enabled = true;
+            btnInsertarUsuario.Enabled = true;
+            btnActualizarUsuario.Enabled = true;
+            btnEliminarUsuario.Enabled = true;
+
+            btnListarParametro.Enabled = true;
+            btnInsertarParametro.Enabled = true;
+            btnActualizarParametro.Enabled = true;
+            btnEliminarParametro.Enabled = true;
+
+            btnListarPeriodo.Enabled = true;
+            btnInsertarPeriodo.Enabled = true;
+            btnActualizarPeriodo.Enabled = true;
+            btnEliminarPeriodo.Enabled = false;
         }
     }
 }
