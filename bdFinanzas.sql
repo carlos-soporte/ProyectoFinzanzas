@@ -1,3 +1,5 @@
+USE MASTER
+GO
 CREATE DATABASE Finanzas
 GO
 
@@ -313,7 +315,6 @@ BEGIN
 END
 GO
 
-select * from Periodos
 -----CRUD PARA LOS USUARIOS
 
 --INSERTAR
