@@ -8,7 +8,7 @@ using System.Data;
 
 namespace CapaDeDatos
 {
-    class Conexion
+    public class Conexion
     {
         //Cadena de conexión.
         SqlConnection conexion = new SqlConnection("Server=.; database=Finanzas; integrated Security=True;");

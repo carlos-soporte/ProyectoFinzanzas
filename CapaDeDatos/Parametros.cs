@@ -28,7 +28,8 @@ namespace CapaDeDatos
             var parametros = new[]
             {
                 new SqlParameter("@Concepto",parametro.Concepto),
-                new SqlParameter("@UnidadDeMedida",parametro.UnidadDeMedida)
+                new SqlParameter("@UnidadDeMedida",parametro.UnidadDeMedida),
+                new SqlParameter("@idMaestro",parametro.idMaestro)
             };
 
             return conexion.EjecutarStoredProcedure("SP_InsertarParametro", parametros);
@@ -40,10 +41,10 @@ namespace CapaDeDatos
             {
                 new SqlParameter("@idParametro",parametro.idParametro),
                 new SqlParameter("@Concepto",parametro.Concepto),
-                new SqlParameter("@UnidadDeMedida",parametro.UnidadDeMedida)
+                new SqlParameter("@UnidadDeMedida",parametro.UnidadDeMedida),
             };
 
-            return parametro.ActualizarParametro(parametro);
+            return conexion.EjecutarStoredProcedure("SP_ActualizarParametro", parametros);
         }
 
         public string EliminarParametro(int idParametro)
@@ -55,7 +56,7 @@ namespace CapaDeDatos
                 new SqlParameter("@idParametro",idParametro)
             };
 
-            return parametro.EliminarParametro(idParametro);
+            return conexion.EjecutarStoredProcedure("SP_EliminarParametro", parametros);
         }
 
     }

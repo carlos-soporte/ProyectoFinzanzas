@@ -19,8 +19,9 @@ namespace CapaDeDatos
         public DataTable ListarPeriodos()
         {
             var conexion = new Conexion();
+            
 
-            return conexion.EjecutarStoredProcedureDeListado("SP_listarPeriodo", new SqlParameter[0]);
+            return conexion.EjecutarStoredProcedureDeListado("SP_listarPeriodo",new SqlParameter[0]);
         }
 
         public string InsertarPeriodo(Periodos periodo)
