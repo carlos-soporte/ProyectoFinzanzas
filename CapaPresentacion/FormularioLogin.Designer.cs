@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.materialSingleLineTextField1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnEntrar = new FontAwesome.Sharp.IconButton();
             this.txtContraseña = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -55,24 +54,6 @@
             this.iconPictureBox1.TabIndex = 0;
             this.iconPictureBox1.TabStop = false;
             this.iconPictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.iconPictureBox1_MouseDown);
-            // 
-            // materialSingleLineTextField1
-            // 
-            this.materialSingleLineTextField1.Depth = 0;
-            this.materialSingleLineTextField1.Hint = "";
-            this.materialSingleLineTextField1.Location = new System.Drawing.Point(493, 182);
-            this.materialSingleLineTextField1.MaxLength = 32767;
-            this.materialSingleLineTextField1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField1.Name = "materialSingleLineTextField1";
-            this.materialSingleLineTextField1.PasswordChar = '\0';
-            this.materialSingleLineTextField1.SelectedText = "";
-            this.materialSingleLineTextField1.SelectionLength = 0;
-            this.materialSingleLineTextField1.SelectionStart = 0;
-            this.materialSingleLineTextField1.Size = new System.Drawing.Size(127, 23);
-            this.materialSingleLineTextField1.TabIndex = 2;
-            this.materialSingleLineTextField1.TabStop = false;
-            this.materialSingleLineTextField1.Text = "materialSingleLineTextField1";
-            this.materialSingleLineTextField1.UseSystemPasswordChar = false;
             // 
             // panel1
             // 
@@ -117,7 +98,7 @@
             this.txtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.Hint = "Contraseña";
             this.txtContraseña.Location = new System.Drawing.Point(16, 62);
-            this.txtContraseña.MaxLength = 32767;
+            this.txtContraseña.MaxLength = 15;
             this.txtContraseña.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '*';
@@ -136,10 +117,10 @@
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.Hint = "Usuario";
             this.txtUsuario.Location = new System.Drawing.Point(16, 18);
-            this.txtUsuario.MaxLength = 32767;
+            this.txtUsuario.MaxLength = 50;
             this.txtUsuario.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.PasswordChar = '*';
+            this.txtUsuario.PasswordChar = '\0';
             this.txtUsuario.SelectedText = "";
             this.txtUsuario.SelectionLength = 0;
             this.txtUsuario.SelectionStart = 0;
@@ -170,7 +151,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.materialSingleLineTextField1);
             this.Controls.Add(this.iconPictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormularioLogin";
@@ -188,7 +168,6 @@
         #endregion
 
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField1;
         private System.Windows.Forms.Panel panel1;
         private MaterialSkin.Controls.MaterialSingleLineTextField txtUsuario;
         private FontAwesome.Sharp.IconButton btnEntrar;

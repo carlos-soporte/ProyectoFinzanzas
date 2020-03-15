@@ -255,6 +255,7 @@
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // TablaMaestra
             // 
@@ -294,6 +295,7 @@
             this.iconButton9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton9.UseVisualStyleBackColor = false;
+            this.iconButton9.Click += new System.EventHandler(this.iconButton9_Click);
             // 
             // btnEliminarTabla
             // 
@@ -590,6 +592,7 @@
             this.iconButton10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton10.UseVisualStyleBackColor = false;
+            this.iconButton10.Click += new System.EventHandler(this.iconButton10_Click);
             // 
             // Usuarios
             // 
@@ -628,6 +631,7 @@
             this.iconButton19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton19.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton19.UseVisualStyleBackColor = false;
+            this.iconButton19.Click += new System.EventHandler(this.iconButton19_Click);
             // 
             // btnEliminarUsuario
             // 
@@ -904,6 +908,7 @@
             this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton5.UseVisualStyleBackColor = false;
+            this.iconButton5.Click += new System.EventHandler(this.iconButton5_Click);
             // 
             // iconButton6
             // 
@@ -926,6 +931,7 @@
             this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton6.UseVisualStyleBackColor = false;
+            this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click_1);
             // 
             // btnListarPeriodo
             // 

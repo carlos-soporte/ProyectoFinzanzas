@@ -963,5 +963,35 @@ namespace CapaPresentacion
             FormularioPeriodos.btnActualizar.Visible = false;
             FormularioPeriodos.btnGuardar.Visible = false;
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void iconButton10_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void iconButton9_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void iconButton5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void iconButton6_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void iconButton19_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
