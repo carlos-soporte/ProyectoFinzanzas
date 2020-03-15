@@ -98,7 +98,7 @@ END
 GO
 
 --Actualizar Area.
-CREATE PROCEDURE SP_Actualizar
+CREATE PROCEDURE SP_ActualizarArea
 @idArea INT,
 @Nombre VARCHAR(50),
 @Departamento VARCHAR(50)
