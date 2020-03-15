@@ -11,7 +11,8 @@ namespace CapaDeDatos
         public double Valor { get; set; }
         public double VidaUtil { get; set; }
         public DateTime FechaInicial { get; set; }
-        public char UnidadDeMedida { get; set; }
+        public double Periodos { get; set; }
+        public char UnidadDeTiempo { get; set; }
         public DateTime FechaFinal { get; set; }
         public int Nit { get; set; }
         public string Proveedor { get; set; }
@@ -37,7 +38,8 @@ namespace CapaDeDatos
                 new SqlParameter("@Valor",tabla.Valor),
                 new SqlParameter("@VidaUtil",tabla.VidaUtil),
                 new SqlParameter("@FechaInicial",tabla.FechaInicial),
-                new SqlParameter("@UnidadDeMedida",tabla.UnidadDeMedida),
+                new SqlParameter("@Periodos",tabla.Periodos),
+                new SqlParameter("@UnidadDeTiempo",tabla.UnidadDeTiempo),
                 new SqlParameter("@FechaFinal",tabla.FechaFinal),
                 new SqlParameter("@Nit",tabla.Nit),
                 new SqlParameter("@Proveedor",tabla.Proveedor),
@@ -60,7 +62,8 @@ namespace CapaDeDatos
                 new SqlParameter("@Valor",tabla.Valor),
                 new SqlParameter("@VidaUtil",tabla.VidaUtil),
                 new SqlParameter("@FechaInicial",tabla.FechaInicial),
-                new SqlParameter("@UnidadDeMedida",tabla.UnidadDeMedida),
+                new SqlParameter("@Periodos",tabla.Periodos),
+                new SqlParameter("@UnidadDeTiempo",tabla.UnidadDeTiempo),
                 new SqlParameter("@FechaFinal",tabla.FechaFinal),
                 new SqlParameter("@Nit",tabla.Nit),
                 new SqlParameter("@Proveedor",tabla.Proveedor),

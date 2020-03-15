@@ -42,26 +42,26 @@
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.TablaMaestra = new System.Windows.Forms.TabPage();
             this.iconButton9 = new FontAwesome.Sharp.IconButton();
-            this.iconButton8 = new FontAwesome.Sharp.IconButton();
-            this.iconButton7 = new FontAwesome.Sharp.IconButton();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
-            this.btnListar = new FontAwesome.Sharp.IconButton();
+            this.btnEliminarTabla = new FontAwesome.Sharp.IconButton();
+            this.btnActualizarTabla = new FontAwesome.Sharp.IconButton();
+            this.btnInsertarTabla = new FontAwesome.Sharp.IconButton();
+            this.btnListarTabla = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.Areas = new System.Windows.Forms.TabPage();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.iconButton11 = new FontAwesome.Sharp.IconButton();
-            this.iconButton12 = new FontAwesome.Sharp.IconButton();
+            this.btnEliminarArea = new FontAwesome.Sharp.IconButton();
+            this.btnActualizarArea = new FontAwesome.Sharp.IconButton();
+            this.btnInsertarArea = new FontAwesome.Sharp.IconButton();
+            this.btnListarArea = new FontAwesome.Sharp.IconButton();
             this.iconButton13 = new FontAwesome.Sharp.IconButton();
             this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
             this.iconButton10 = new FontAwesome.Sharp.IconButton();
             this.Usuarios = new System.Windows.Forms.TabPage();
             this.iconButton19 = new FontAwesome.Sharp.IconButton();
-            this.iconButton14 = new FontAwesome.Sharp.IconButton();
-            this.iconButton15 = new FontAwesome.Sharp.IconButton();
-            this.iconButton16 = new FontAwesome.Sharp.IconButton();
-            this.iconButton17 = new FontAwesome.Sharp.IconButton();
+            this.btnEliminarUsuario = new FontAwesome.Sharp.IconButton();
+            this.btnActualizarUsuario = new FontAwesome.Sharp.IconButton();
+            this.btnInsertarUsuario = new FontAwesome.Sharp.IconButton();
+            this.btnListarUsuario = new FontAwesome.Sharp.IconButton();
             this.iconButton18 = new FontAwesome.Sharp.IconButton();
             this.iconPictureBox4 = new FontAwesome.Sharp.IconPictureBox();
             this.PanelVisualizador = new System.Windows.Forms.Panel();
@@ -238,10 +238,10 @@
             // 
             this.TablaMaestra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.TablaMaestra.Controls.Add(this.iconButton9);
-            this.TablaMaestra.Controls.Add(this.iconButton8);
-            this.TablaMaestra.Controls.Add(this.iconButton7);
-            this.TablaMaestra.Controls.Add(this.iconButton6);
-            this.TablaMaestra.Controls.Add(this.btnListar);
+            this.TablaMaestra.Controls.Add(this.btnEliminarTabla);
+            this.TablaMaestra.Controls.Add(this.btnActualizarTabla);
+            this.TablaMaestra.Controls.Add(this.btnInsertarTabla);
+            this.TablaMaestra.Controls.Add(this.btnListarTabla);
             this.TablaMaestra.Controls.Add(this.iconButton2);
             this.TablaMaestra.Controls.Add(this.iconPictureBox2);
             this.TablaMaestra.Location = new System.Drawing.Point(4, 28);
@@ -273,97 +273,97 @@
             this.iconButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton9.UseVisualStyleBackColor = false;
             // 
-            // iconButton8
+            // btnEliminarTabla
             // 
-            this.iconButton8.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton8.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton8.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton8.ForeColor = System.Drawing.Color.Black;
-            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.Dragon;
-            this.iconButton8.IconColor = System.Drawing.Color.Black;
-            this.iconButton8.IconSize = 40;
-            this.iconButton8.Location = new System.Drawing.Point(3, 337);
-            this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Rotation = 0D;
-            this.iconButton8.Size = new System.Drawing.Size(189, 47);
-            this.iconButton8.TabIndex = 7;
-            this.iconButton8.Text = "Eliminar";
-            this.iconButton8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton8.UseVisualStyleBackColor = false;
-            this.iconButton8.Click += new System.EventHandler(this.iconButton8_Click);
+            this.btnEliminarTabla.BackColor = System.Drawing.Color.Transparent;
+            this.btnEliminarTabla.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEliminarTabla.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEliminarTabla.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnEliminarTabla.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminarTabla.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnEliminarTabla.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminarTabla.IconChar = FontAwesome.Sharp.IconChar.Dragon;
+            this.btnEliminarTabla.IconColor = System.Drawing.Color.Black;
+            this.btnEliminarTabla.IconSize = 40;
+            this.btnEliminarTabla.Location = new System.Drawing.Point(3, 337);
+            this.btnEliminarTabla.Name = "btnEliminarTabla";
+            this.btnEliminarTabla.Rotation = 0D;
+            this.btnEliminarTabla.Size = new System.Drawing.Size(189, 47);
+            this.btnEliminarTabla.TabIndex = 7;
+            this.btnEliminarTabla.Text = "Eliminar";
+            this.btnEliminarTabla.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEliminarTabla.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEliminarTabla.UseVisualStyleBackColor = false;
+            this.btnEliminarTabla.Click += new System.EventHandler(this.iconButton8_Click);
             // 
-            // iconButton7
+            // btnActualizarTabla
             // 
-            this.iconButton7.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton7.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton7.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton7.ForeColor = System.Drawing.Color.Black;
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.Rev;
-            this.iconButton7.IconColor = System.Drawing.Color.Black;
-            this.iconButton7.IconSize = 40;
-            this.iconButton7.Location = new System.Drawing.Point(3, 290);
-            this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Rotation = 0D;
-            this.iconButton7.Size = new System.Drawing.Size(189, 47);
-            this.iconButton7.TabIndex = 6;
-            this.iconButton7.Text = "Actualizar";
-            this.iconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton7.UseVisualStyleBackColor = false;
-            this.iconButton7.Click += new System.EventHandler(this.iconButton7_Click);
+            this.btnActualizarTabla.BackColor = System.Drawing.Color.Transparent;
+            this.btnActualizarTabla.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizarTabla.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnActualizarTabla.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnActualizarTabla.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnActualizarTabla.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnActualizarTabla.ForeColor = System.Drawing.Color.Black;
+            this.btnActualizarTabla.IconChar = FontAwesome.Sharp.IconChar.Rev;
+            this.btnActualizarTabla.IconColor = System.Drawing.Color.Black;
+            this.btnActualizarTabla.IconSize = 40;
+            this.btnActualizarTabla.Location = new System.Drawing.Point(3, 290);
+            this.btnActualizarTabla.Name = "btnActualizarTabla";
+            this.btnActualizarTabla.Rotation = 0D;
+            this.btnActualizarTabla.Size = new System.Drawing.Size(189, 47);
+            this.btnActualizarTabla.TabIndex = 6;
+            this.btnActualizarTabla.Text = "Actualizar";
+            this.btnActualizarTabla.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnActualizarTabla.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnActualizarTabla.UseVisualStyleBackColor = false;
+            this.btnActualizarTabla.Click += new System.EventHandler(this.iconButton7_Click);
             // 
-            // iconButton6
+            // btnInsertarTabla
             // 
-            this.iconButton6.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton6.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton6.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton6.ForeColor = System.Drawing.Color.Black;
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.Inbox;
-            this.iconButton6.IconColor = System.Drawing.Color.Black;
-            this.iconButton6.IconSize = 40;
-            this.iconButton6.Location = new System.Drawing.Point(3, 243);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Rotation = 0D;
-            this.iconButton6.Size = new System.Drawing.Size(189, 47);
-            this.iconButton6.TabIndex = 5;
-            this.iconButton6.Text = "Insertar";
-            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton6.UseVisualStyleBackColor = false;
-            this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
+            this.btnInsertarTabla.BackColor = System.Drawing.Color.Transparent;
+            this.btnInsertarTabla.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertarTabla.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInsertarTabla.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnInsertarTabla.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInsertarTabla.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnInsertarTabla.ForeColor = System.Drawing.Color.Black;
+            this.btnInsertarTabla.IconChar = FontAwesome.Sharp.IconChar.Inbox;
+            this.btnInsertarTabla.IconColor = System.Drawing.Color.Black;
+            this.btnInsertarTabla.IconSize = 40;
+            this.btnInsertarTabla.Location = new System.Drawing.Point(3, 243);
+            this.btnInsertarTabla.Name = "btnInsertarTabla";
+            this.btnInsertarTabla.Rotation = 0D;
+            this.btnInsertarTabla.Size = new System.Drawing.Size(189, 47);
+            this.btnInsertarTabla.TabIndex = 5;
+            this.btnInsertarTabla.Text = "Insertar";
+            this.btnInsertarTabla.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInsertarTabla.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnInsertarTabla.UseVisualStyleBackColor = false;
+            this.btnInsertarTabla.Click += new System.EventHandler(this.iconButton6_Click);
             // 
-            // btnListar
+            // btnListarTabla
             // 
-            this.btnListar.BackColor = System.Drawing.Color.Transparent;
-            this.btnListar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnListar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnListar.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.btnListar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnListar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.btnListar.ForeColor = System.Drawing.Color.Black;
-            this.btnListar.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
-            this.btnListar.IconColor = System.Drawing.Color.Black;
-            this.btnListar.IconSize = 40;
-            this.btnListar.Location = new System.Drawing.Point(3, 196);
-            this.btnListar.Name = "btnListar";
-            this.btnListar.Rotation = 0D;
-            this.btnListar.Size = new System.Drawing.Size(189, 47);
-            this.btnListar.TabIndex = 4;
-            this.btnListar.Text = "Listar";
-            this.btnListar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnListar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnListar.UseVisualStyleBackColor = false;
-            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
+            this.btnListarTabla.BackColor = System.Drawing.Color.Transparent;
+            this.btnListarTabla.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnListarTabla.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnListarTabla.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnListarTabla.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListarTabla.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnListarTabla.ForeColor = System.Drawing.Color.Black;
+            this.btnListarTabla.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
+            this.btnListarTabla.IconColor = System.Drawing.Color.Black;
+            this.btnListarTabla.IconSize = 40;
+            this.btnListarTabla.Location = new System.Drawing.Point(3, 196);
+            this.btnListarTabla.Name = "btnListarTabla";
+            this.btnListarTabla.Rotation = 0D;
+            this.btnListarTabla.Size = new System.Drawing.Size(189, 47);
+            this.btnListarTabla.TabIndex = 4;
+            this.btnListarTabla.Text = "Listar";
+            this.btnListarTabla.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnListarTabla.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnListarTabla.UseVisualStyleBackColor = false;
+            this.btnListarTabla.Click += new System.EventHandler(this.btnListar_Click);
             // 
             // iconButton2
             // 
@@ -405,10 +405,10 @@
             // Areas
             // 
             this.Areas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.Areas.Controls.Add(this.iconButton3);
-            this.Areas.Controls.Add(this.iconButton4);
-            this.Areas.Controls.Add(this.iconButton11);
-            this.Areas.Controls.Add(this.iconButton12);
+            this.Areas.Controls.Add(this.btnEliminarArea);
+            this.Areas.Controls.Add(this.btnActualizarArea);
+            this.Areas.Controls.Add(this.btnInsertarArea);
+            this.Areas.Controls.Add(this.btnListarArea);
             this.Areas.Controls.Add(this.iconButton13);
             this.Areas.Controls.Add(this.iconPictureBox3);
             this.Areas.Controls.Add(this.iconButton10);
@@ -418,97 +418,97 @@
             this.Areas.TabIndex = 2;
             this.Areas.Text = "Areas";
             // 
-            // iconButton3
+            // btnEliminarArea
             // 
-            this.iconButton3.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton3.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton3.ForeColor = System.Drawing.Color.Black;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Dragon;
-            this.iconButton3.IconColor = System.Drawing.Color.Black;
-            this.iconButton3.IconSize = 40;
-            this.iconButton3.Location = new System.Drawing.Point(0, 334);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Rotation = 0D;
-            this.iconButton3.Size = new System.Drawing.Size(195, 47);
-            this.iconButton3.TabIndex = 13;
-            this.iconButton3.Text = "Eliminar";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton3.UseVisualStyleBackColor = false;
-            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
+            this.btnEliminarArea.BackColor = System.Drawing.Color.Transparent;
+            this.btnEliminarArea.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEliminarArea.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEliminarArea.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnEliminarArea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminarArea.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnEliminarArea.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminarArea.IconChar = FontAwesome.Sharp.IconChar.Dragon;
+            this.btnEliminarArea.IconColor = System.Drawing.Color.Black;
+            this.btnEliminarArea.IconSize = 40;
+            this.btnEliminarArea.Location = new System.Drawing.Point(0, 334);
+            this.btnEliminarArea.Name = "btnEliminarArea";
+            this.btnEliminarArea.Rotation = 0D;
+            this.btnEliminarArea.Size = new System.Drawing.Size(195, 47);
+            this.btnEliminarArea.TabIndex = 13;
+            this.btnEliminarArea.Text = "Eliminar";
+            this.btnEliminarArea.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEliminarArea.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEliminarArea.UseVisualStyleBackColor = false;
+            this.btnEliminarArea.Click += new System.EventHandler(this.iconButton3_Click);
             // 
-            // iconButton4
+            // btnActualizarArea
             // 
-            this.iconButton4.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton4.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton4.ForeColor = System.Drawing.Color.Black;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.Rev;
-            this.iconButton4.IconColor = System.Drawing.Color.Black;
-            this.iconButton4.IconSize = 40;
-            this.iconButton4.Location = new System.Drawing.Point(0, 287);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Rotation = 0D;
-            this.iconButton4.Size = new System.Drawing.Size(195, 47);
-            this.iconButton4.TabIndex = 12;
-            this.iconButton4.Text = "Actualizar";
-            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton4.UseVisualStyleBackColor = false;
-            this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
+            this.btnActualizarArea.BackColor = System.Drawing.Color.Transparent;
+            this.btnActualizarArea.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizarArea.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnActualizarArea.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnActualizarArea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnActualizarArea.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnActualizarArea.ForeColor = System.Drawing.Color.Black;
+            this.btnActualizarArea.IconChar = FontAwesome.Sharp.IconChar.Rev;
+            this.btnActualizarArea.IconColor = System.Drawing.Color.Black;
+            this.btnActualizarArea.IconSize = 40;
+            this.btnActualizarArea.Location = new System.Drawing.Point(0, 287);
+            this.btnActualizarArea.Name = "btnActualizarArea";
+            this.btnActualizarArea.Rotation = 0D;
+            this.btnActualizarArea.Size = new System.Drawing.Size(195, 47);
+            this.btnActualizarArea.TabIndex = 12;
+            this.btnActualizarArea.Text = "Actualizar";
+            this.btnActualizarArea.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnActualizarArea.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnActualizarArea.UseVisualStyleBackColor = false;
+            this.btnActualizarArea.Click += new System.EventHandler(this.iconButton4_Click);
             // 
-            // iconButton11
+            // btnInsertarArea
             // 
-            this.iconButton11.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton11.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.iconButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton11.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton11.ForeColor = System.Drawing.Color.Black;
-            this.iconButton11.IconChar = FontAwesome.Sharp.IconChar.Inbox;
-            this.iconButton11.IconColor = System.Drawing.Color.Black;
-            this.iconButton11.IconSize = 40;
-            this.iconButton11.Location = new System.Drawing.Point(0, 240);
-            this.iconButton11.Name = "iconButton11";
-            this.iconButton11.Rotation = 0D;
-            this.iconButton11.Size = new System.Drawing.Size(195, 47);
-            this.iconButton11.TabIndex = 11;
-            this.iconButton11.Text = "Insertar";
-            this.iconButton11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton11.UseVisualStyleBackColor = false;
-            this.iconButton11.Click += new System.EventHandler(this.iconButton11_Click);
+            this.btnInsertarArea.BackColor = System.Drawing.Color.Transparent;
+            this.btnInsertarArea.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertarArea.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInsertarArea.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnInsertarArea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInsertarArea.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnInsertarArea.ForeColor = System.Drawing.Color.Black;
+            this.btnInsertarArea.IconChar = FontAwesome.Sharp.IconChar.Inbox;
+            this.btnInsertarArea.IconColor = System.Drawing.Color.Black;
+            this.btnInsertarArea.IconSize = 40;
+            this.btnInsertarArea.Location = new System.Drawing.Point(0, 240);
+            this.btnInsertarArea.Name = "btnInsertarArea";
+            this.btnInsertarArea.Rotation = 0D;
+            this.btnInsertarArea.Size = new System.Drawing.Size(195, 47);
+            this.btnInsertarArea.TabIndex = 11;
+            this.btnInsertarArea.Text = "Insertar";
+            this.btnInsertarArea.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInsertarArea.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnInsertarArea.UseVisualStyleBackColor = false;
+            this.btnInsertarArea.Click += new System.EventHandler(this.iconButton11_Click);
             // 
-            // iconButton12
+            // btnListarArea
             // 
-            this.iconButton12.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton12.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.iconButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton12.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton12.ForeColor = System.Drawing.Color.Black;
-            this.iconButton12.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
-            this.iconButton12.IconColor = System.Drawing.Color.Black;
-            this.iconButton12.IconSize = 40;
-            this.iconButton12.Location = new System.Drawing.Point(0, 193);
-            this.iconButton12.Name = "iconButton12";
-            this.iconButton12.Rotation = 0D;
-            this.iconButton12.Size = new System.Drawing.Size(195, 47);
-            this.iconButton12.TabIndex = 10;
-            this.iconButton12.Text = "Listar";
-            this.iconButton12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton12.UseVisualStyleBackColor = false;
-            this.iconButton12.Click += new System.EventHandler(this.iconButton12_Click);
+            this.btnListarArea.BackColor = System.Drawing.Color.Transparent;
+            this.btnListarArea.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnListarArea.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnListarArea.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnListarArea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListarArea.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnListarArea.ForeColor = System.Drawing.Color.Black;
+            this.btnListarArea.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
+            this.btnListarArea.IconColor = System.Drawing.Color.Black;
+            this.btnListarArea.IconSize = 40;
+            this.btnListarArea.Location = new System.Drawing.Point(0, 193);
+            this.btnListarArea.Name = "btnListarArea";
+            this.btnListarArea.Rotation = 0D;
+            this.btnListarArea.Size = new System.Drawing.Size(195, 47);
+            this.btnListarArea.TabIndex = 10;
+            this.btnListarArea.Text = "Listar";
+            this.btnListarArea.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnListarArea.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnListarArea.UseVisualStyleBackColor = false;
+            this.btnListarArea.Click += new System.EventHandler(this.iconButton12_Click);
             // 
             // iconButton13
             // 
@@ -573,10 +573,10 @@
             // 
             this.Usuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.Usuarios.Controls.Add(this.iconButton19);
-            this.Usuarios.Controls.Add(this.iconButton14);
-            this.Usuarios.Controls.Add(this.iconButton15);
-            this.Usuarios.Controls.Add(this.iconButton16);
-            this.Usuarios.Controls.Add(this.iconButton17);
+            this.Usuarios.Controls.Add(this.btnEliminarUsuario);
+            this.Usuarios.Controls.Add(this.btnActualizarUsuario);
+            this.Usuarios.Controls.Add(this.btnInsertarUsuario);
+            this.Usuarios.Controls.Add(this.btnListarUsuario);
             this.Usuarios.Controls.Add(this.iconButton18);
             this.Usuarios.Controls.Add(this.iconPictureBox4);
             this.Usuarios.Location = new System.Drawing.Point(4, 28);
@@ -607,97 +607,97 @@
             this.iconButton19.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton19.UseVisualStyleBackColor = false;
             // 
-            // iconButton14
+            // btnEliminarUsuario
             // 
-            this.iconButton14.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton14.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.iconButton14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton14.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton14.ForeColor = System.Drawing.Color.Black;
-            this.iconButton14.IconChar = FontAwesome.Sharp.IconChar.Dragon;
-            this.iconButton14.IconColor = System.Drawing.Color.Black;
-            this.iconButton14.IconSize = 40;
-            this.iconButton14.Location = new System.Drawing.Point(0, 334);
-            this.iconButton14.Name = "iconButton14";
-            this.iconButton14.Rotation = 0D;
-            this.iconButton14.Size = new System.Drawing.Size(195, 47);
-            this.iconButton14.TabIndex = 13;
-            this.iconButton14.Text = "Eliminar";
-            this.iconButton14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton14.UseVisualStyleBackColor = false;
-            this.iconButton14.Click += new System.EventHandler(this.iconButton14_Click);
+            this.btnEliminarUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.btnEliminarUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEliminarUsuario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEliminarUsuario.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnEliminarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminarUsuario.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnEliminarUsuario.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminarUsuario.IconChar = FontAwesome.Sharp.IconChar.Dragon;
+            this.btnEliminarUsuario.IconColor = System.Drawing.Color.Black;
+            this.btnEliminarUsuario.IconSize = 40;
+            this.btnEliminarUsuario.Location = new System.Drawing.Point(0, 334);
+            this.btnEliminarUsuario.Name = "btnEliminarUsuario";
+            this.btnEliminarUsuario.Rotation = 0D;
+            this.btnEliminarUsuario.Size = new System.Drawing.Size(195, 47);
+            this.btnEliminarUsuario.TabIndex = 13;
+            this.btnEliminarUsuario.Text = "Eliminar";
+            this.btnEliminarUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEliminarUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEliminarUsuario.UseVisualStyleBackColor = false;
+            this.btnEliminarUsuario.Click += new System.EventHandler(this.iconButton14_Click);
             // 
-            // iconButton15
+            // btnActualizarUsuario
             // 
-            this.iconButton15.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton15.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.iconButton15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton15.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton15.ForeColor = System.Drawing.Color.Black;
-            this.iconButton15.IconChar = FontAwesome.Sharp.IconChar.Rev;
-            this.iconButton15.IconColor = System.Drawing.Color.Black;
-            this.iconButton15.IconSize = 40;
-            this.iconButton15.Location = new System.Drawing.Point(0, 287);
-            this.iconButton15.Name = "iconButton15";
-            this.iconButton15.Rotation = 0D;
-            this.iconButton15.Size = new System.Drawing.Size(195, 47);
-            this.iconButton15.TabIndex = 12;
-            this.iconButton15.Text = "Actualizar";
-            this.iconButton15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton15.UseVisualStyleBackColor = false;
-            this.iconButton15.Click += new System.EventHandler(this.iconButton15_Click);
+            this.btnActualizarUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.btnActualizarUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizarUsuario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnActualizarUsuario.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnActualizarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnActualizarUsuario.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnActualizarUsuario.ForeColor = System.Drawing.Color.Black;
+            this.btnActualizarUsuario.IconChar = FontAwesome.Sharp.IconChar.Rev;
+            this.btnActualizarUsuario.IconColor = System.Drawing.Color.Black;
+            this.btnActualizarUsuario.IconSize = 40;
+            this.btnActualizarUsuario.Location = new System.Drawing.Point(0, 287);
+            this.btnActualizarUsuario.Name = "btnActualizarUsuario";
+            this.btnActualizarUsuario.Rotation = 0D;
+            this.btnActualizarUsuario.Size = new System.Drawing.Size(195, 47);
+            this.btnActualizarUsuario.TabIndex = 12;
+            this.btnActualizarUsuario.Text = "Actualizar";
+            this.btnActualizarUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnActualizarUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnActualizarUsuario.UseVisualStyleBackColor = false;
+            this.btnActualizarUsuario.Click += new System.EventHandler(this.iconButton15_Click);
             // 
-            // iconButton16
+            // btnInsertarUsuario
             // 
-            this.iconButton16.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton16.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton16.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.iconButton16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton16.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton16.ForeColor = System.Drawing.Color.Black;
-            this.iconButton16.IconChar = FontAwesome.Sharp.IconChar.Inbox;
-            this.iconButton16.IconColor = System.Drawing.Color.Black;
-            this.iconButton16.IconSize = 40;
-            this.iconButton16.Location = new System.Drawing.Point(0, 240);
-            this.iconButton16.Name = "iconButton16";
-            this.iconButton16.Rotation = 0D;
-            this.iconButton16.Size = new System.Drawing.Size(195, 47);
-            this.iconButton16.TabIndex = 11;
-            this.iconButton16.Text = "Insertar";
-            this.iconButton16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton16.UseVisualStyleBackColor = false;
-            this.iconButton16.Click += new System.EventHandler(this.iconButton16_Click);
+            this.btnInsertarUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.btnInsertarUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsertarUsuario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInsertarUsuario.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnInsertarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInsertarUsuario.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnInsertarUsuario.ForeColor = System.Drawing.Color.Black;
+            this.btnInsertarUsuario.IconChar = FontAwesome.Sharp.IconChar.Inbox;
+            this.btnInsertarUsuario.IconColor = System.Drawing.Color.Black;
+            this.btnInsertarUsuario.IconSize = 40;
+            this.btnInsertarUsuario.Location = new System.Drawing.Point(0, 240);
+            this.btnInsertarUsuario.Name = "btnInsertarUsuario";
+            this.btnInsertarUsuario.Rotation = 0D;
+            this.btnInsertarUsuario.Size = new System.Drawing.Size(195, 47);
+            this.btnInsertarUsuario.TabIndex = 11;
+            this.btnInsertarUsuario.Text = "Insertar";
+            this.btnInsertarUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInsertarUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnInsertarUsuario.UseVisualStyleBackColor = false;
+            this.btnInsertarUsuario.Click += new System.EventHandler(this.iconButton16_Click);
             // 
-            // iconButton17
+            // btnListarUsuario
             // 
-            this.iconButton17.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton17.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
-            this.iconButton17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton17.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton17.ForeColor = System.Drawing.Color.Black;
-            this.iconButton17.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
-            this.iconButton17.IconColor = System.Drawing.Color.Black;
-            this.iconButton17.IconSize = 40;
-            this.iconButton17.Location = new System.Drawing.Point(0, 193);
-            this.iconButton17.Name = "iconButton17";
-            this.iconButton17.Rotation = 0D;
-            this.iconButton17.Size = new System.Drawing.Size(195, 47);
-            this.iconButton17.TabIndex = 10;
-            this.iconButton17.Text = "Listar";
-            this.iconButton17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton17.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton17.UseVisualStyleBackColor = false;
-            this.iconButton17.Click += new System.EventHandler(this.iconButton17_Click);
+            this.btnListarUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.btnListarUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnListarUsuario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnListarUsuario.FlatAppearance.BorderColor = System.Drawing.Color.Purple;
+            this.btnListarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListarUsuario.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnListarUsuario.ForeColor = System.Drawing.Color.Black;
+            this.btnListarUsuario.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
+            this.btnListarUsuario.IconColor = System.Drawing.Color.Black;
+            this.btnListarUsuario.IconSize = 40;
+            this.btnListarUsuario.Location = new System.Drawing.Point(0, 193);
+            this.btnListarUsuario.Name = "btnListarUsuario";
+            this.btnListarUsuario.Rotation = 0D;
+            this.btnListarUsuario.Size = new System.Drawing.Size(195, 47);
+            this.btnListarUsuario.TabIndex = 10;
+            this.btnListarUsuario.Text = "Listar";
+            this.btnListarUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnListarUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnListarUsuario.UseVisualStyleBackColor = false;
+            this.btnListarUsuario.Click += new System.EventHandler(this.iconButton17_Click);
             // 
             // iconButton18
             // 
@@ -796,22 +796,22 @@
         private FontAwesome.Sharp.IconButton iconButton1;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
         private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton8;
-        private FontAwesome.Sharp.IconButton iconButton7;
-        private FontAwesome.Sharp.IconButton iconButton6;
-        private FontAwesome.Sharp.IconButton btnListar;
+        private FontAwesome.Sharp.IconButton btnEliminarTabla;
+        private FontAwesome.Sharp.IconButton btnActualizarTabla;
+        private FontAwesome.Sharp.IconButton btnInsertarTabla;
+        private FontAwesome.Sharp.IconButton btnListarTabla;
         private FontAwesome.Sharp.IconButton iconButton9;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private FontAwesome.Sharp.IconButton iconButton11;
-        private FontAwesome.Sharp.IconButton iconButton12;
+        private FontAwesome.Sharp.IconButton btnEliminarArea;
+        private FontAwesome.Sharp.IconButton btnActualizarArea;
+        private FontAwesome.Sharp.IconButton btnInsertarArea;
+        private FontAwesome.Sharp.IconButton btnListarArea;
         private FontAwesome.Sharp.IconButton iconButton13;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
         private FontAwesome.Sharp.IconButton iconButton10;
-        private FontAwesome.Sharp.IconButton iconButton14;
-        private FontAwesome.Sharp.IconButton iconButton15;
-        private FontAwesome.Sharp.IconButton iconButton16;
-        private FontAwesome.Sharp.IconButton iconButton17;
+        private FontAwesome.Sharp.IconButton btnEliminarUsuario;
+        private FontAwesome.Sharp.IconButton btnActualizarUsuario;
+        private FontAwesome.Sharp.IconButton btnInsertarUsuario;
+        private FontAwesome.Sharp.IconButton btnListarUsuario;
         private FontAwesome.Sharp.IconButton iconButton18;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox4;
         private FontAwesome.Sharp.IconButton iconButton19;
