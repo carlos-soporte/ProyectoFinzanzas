@@ -4,6 +4,14 @@ GO
 USE Finanzas
 GO
 
+CREATE TABLE Usuarios
+(
+idUsuario INT IDENTITY PRIMARY KEY,
+Usuario VARCHAR(50) NOT NULL,
+Contraseña VARCHAR(15) NOT NULL
+)
+GO
+
 
 --CREAMOS LAS TABLAS REQUERIDAS.
 
@@ -304,3 +312,53 @@ AS
 BEGIN
 	SELECT * FROM Periodos WHERE idPeriodo=@idPeriodo
 END
+GO
+
+-----CRUD PARA LOS USUARIOS
+
+--INSERTAR
+CREATE PROCEDURE SP_InsertarUsuario
+@Usuario VARCHAR(50),
+@Contraseña VARCHAR(15)
+AS
+BEGIN
+	INSERT INTO Usuarios(Usuario,Contraseña)
+	VALUES (@Usuario,@Contraseña)
+	SELECT 'Usuario registrado con exito'
+END
+GO
+
+--Actualizar
+CREATE PROCEDURE SP_ActualizarUsuario
+@idUsuario INT,
+@Usuario VARCHAR(50),
+@Contraseña VARCHAR(15)
+AS
+BEGIN
+	UPDATE Usuarios
+	SET
+		Usuario=@idUsuario,
+		Contraseña=@Contraseña
+	WHERE idUsuario=@idUsuario
+	SELECT 'Usuario actualizado correctamente.'
+END
+GO
+
+--Eliminar
+CREATE PROCEDURE SP_EliminarUsuario
+@idUsuario INT
+AS
+BEGIN	
+	DELETE FROM Usuarios
+	WHERE idUsuario=idUsuario
+	SELECT 'Usuario Eliminado con exito.'
+END
+GO
+
+--Listar
+CREATE PROCEDURE SP_ListarUsuario
+AS
+BEGIN
+	SELECT * FROM Usuarios
+END
+GO

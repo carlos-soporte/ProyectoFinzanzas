@@ -31,7 +31,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.btnVerPeriodos = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.txtConcepto = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -40,24 +39,9 @@
             this.btnEliminar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnGuardar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnActualizar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.txtidMaestro = new MaterialSkin.Controls.MaterialSingleLineTextField();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnVerPeriodos
-            // 
-            this.btnVerPeriodos.AutoSize = true;
-            this.btnVerPeriodos.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnVerPeriodos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVerPeriodos.Depth = 0;
-            this.btnVerPeriodos.Icon = null;
-            this.btnVerPeriodos.Location = new System.Drawing.Point(651, 14);
-            this.btnVerPeriodos.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnVerPeriodos.Name = "btnVerPeriodos";
-            this.btnVerPeriodos.Primary = true;
-            this.btnVerPeriodos.Size = new System.Drawing.Size(115, 36);
-            this.btnVerPeriodos.TabIndex = 26;
-            this.btnVerPeriodos.Text = "Ver Periodos";
-            this.btnVerPeriodos.UseVisualStyleBackColor = true;
             // 
             // materialLabel4
             // 
@@ -65,7 +49,7 @@
             this.materialLabel4.Depth = 0;
             this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.Location = new System.Drawing.Point(298, 22);
+            this.materialLabel4.Location = new System.Drawing.Point(339, 24);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
             this.materialLabel4.Size = new System.Drawing.Size(87, 19);
@@ -112,7 +96,7 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(740, 276);
+            this.dataGridView1.Size = new System.Drawing.Size(740, 292);
             this.dataGridView1.TabIndex = 24;
             // 
             // txtConcepto
@@ -173,7 +157,7 @@
             this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminar.Depth = 0;
             this.btnEliminar.Icon = null;
-            this.btnEliminar.Location = new System.Drawing.Point(476, 448);
+            this.btnEliminar.Location = new System.Drawing.Point(452, 477);
             this.btnEliminar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Primary = true;
@@ -189,7 +173,7 @@
             this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuardar.Depth = 0;
             this.btnGuardar.Icon = null;
-            this.btnGuardar.Location = new System.Drawing.Point(232, 448);
+            this.btnGuardar.Location = new System.Drawing.Point(253, 477);
             this.btnGuardar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Primary = true;
@@ -205,7 +189,7 @@
             this.btnActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnActualizar.Depth = 0;
             this.btnActualizar.Icon = null;
-            this.btnActualizar.Location = new System.Drawing.Point(343, 448);
+            this.btnActualizar.Location = new System.Drawing.Point(343, 477);
             this.btnActualizar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Primary = true;
@@ -214,18 +198,35 @@
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
             // 
+            // txtidMaestro
+            // 
+            this.txtidMaestro.Depth = 0;
+            this.txtidMaestro.Hint = "id Maestro";
+            this.txtidMaestro.Location = new System.Drawing.Point(280, 430);
+            this.txtidMaestro.MaxLength = 32767;
+            this.txtidMaestro.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txtidMaestro.Name = "txtidMaestro";
+            this.txtidMaestro.PasswordChar = '\0';
+            this.txtidMaestro.SelectedText = "";
+            this.txtidMaestro.SelectionLength = 0;
+            this.txtidMaestro.SelectionStart = 0;
+            this.txtidMaestro.Size = new System.Drawing.Size(210, 23);
+            this.txtidMaestro.TabIndex = 33;
+            this.txtidMaestro.TabStop = false;
+            this.txtidMaestro.UseSystemPasswordChar = false;
+            // 
             // FormularioParametros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(803, 537);
+            this.Controls.Add(this.txtidMaestro);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.txtValorDeMedida);
             this.Controls.Add(this.txtUnidadDeMedida);
             this.Controls.Add(this.txtConcepto);
-            this.Controls.Add(this.btnVerPeriodos);
             this.Controls.Add(this.materialLabel4);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -239,8 +240,6 @@
         }
 
         #endregion
-
-        private MaterialSkin.Controls.MaterialRaisedButton btnVerPeriodos;
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
         private System.Windows.Forms.DataGridView dataGridView1;
         public MaterialSkin.Controls.MaterialSingleLineTextField txtConcepto;
@@ -249,5 +248,6 @@
         public MaterialSkin.Controls.MaterialRaisedButton btnEliminar;
         public MaterialSkin.Controls.MaterialRaisedButton btnGuardar;
         public MaterialSkin.Controls.MaterialRaisedButton btnActualizar;
+        public MaterialSkin.Controls.MaterialSingleLineTextField txtidMaestro;
     }
 }
