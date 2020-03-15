@@ -411,7 +411,15 @@ namespace CapaPresentacion
             FormularioUsuarios.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioUsuarios);
             FormularioUsuarios.Show();
-            
+
+            FormularioUsuarios.btnGuardar.Enabled = false;
+            FormularioUsuarios.btnActualizar.Enabled = false;
+            FormularioUsuarios.btnEliminar.Enabled = false;
+
+            FormularioUsuarios.btnGuardar.Visible = false;
+            FormularioUsuarios.btnActualizar.Visible = false;
+            FormularioUsuarios.btnEliminar.Visible = false;
+
         }
 
         private void iconButton16_Click(object sender, EventArgs e)
@@ -452,6 +460,12 @@ namespace CapaPresentacion
             FormularioUsuarios.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioUsuarios);
             FormularioUsuarios.Show();
+
+            FormularioUsuarios.btnEliminar.Enabled = false;
+            FormularioUsuarios.btnActualizar.Enabled = false;
+
+            FormularioUsuarios.btnEliminar.Visible = false;
+            FormularioUsuarios.btnActualizar.Visible = false;
         }
 
         private void iconButton15_Click(object sender, EventArgs e)
@@ -492,6 +506,14 @@ namespace CapaPresentacion
             FormularioUsuarios.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioUsuarios);
             FormularioUsuarios.Show();
+
+            FormularioUsuarios.btnEliminar.Enabled = false;
+            FormularioUsuarios.btnGuardar.Enabled = false;
+
+            FormularioUsuarios.btnEliminar.Visible = false;
+            FormularioUsuarios.btnGuardar.Visible = false;
+
+
         }
 
         private void iconButton14_Click(object sender, EventArgs e)
@@ -532,6 +554,14 @@ namespace CapaPresentacion
             FormularioUsuarios.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioUsuarios);
             FormularioUsuarios.Show();
+
+            FormularioUsuarios.btnActualizar.Enabled = false;
+            FormularioUsuarios.btnGuardar.Enabled = false;
+
+            FormularioUsuarios.btnActualizar.Visible = false;
+            FormularioUsuarios.btnGuardar.Visible = false;
+
+
         }
 
         private void btnListarParametro_Click(object sender, EventArgs e)
@@ -572,6 +602,14 @@ namespace CapaPresentacion
             FormularioParametros.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioParametros);
             FormularioParametros.Show();
+
+            FormularioParametros.btnActualizar.Enabled = false;
+            FormularioParametros.btnEliminar.Enabled = false;
+            FormularioParametros.btnGuardar.Enabled = false;
+
+            FormularioParametros.btnActualizar.Visible = false;
+            FormularioParametros.btnEliminar.Visible = false;
+            FormularioParametros.btnGuardar.Visible = false;
 
 
         }
@@ -614,6 +652,12 @@ namespace CapaPresentacion
             FormularioParametros.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioParametros);
             FormularioParametros.Show();
+
+            FormularioParametros.btnActualizar.Enabled = false;
+            FormularioParametros.btnEliminar.Enabled = false;
+
+            FormularioParametros.btnActualizar.Visible = false;
+            FormularioParametros.btnEliminar.Visible = false;
         }
 
         private void btnActualizarParametro_Click(object sender, EventArgs e)
@@ -654,6 +698,12 @@ namespace CapaPresentacion
             FormularioParametros.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioParametros);
             FormularioParametros.Show();
+
+            FormularioParametros.btnGuardar.Enabled = false;
+            FormularioParametros.btnEliminar.Enabled = false;
+
+            FormularioParametros.btnGuardar.Visible = false;
+            FormularioParametros.btnEliminar.Visible = false;
         }
 
         private void btnEliminarParametro_Click(object sender, EventArgs e)
@@ -694,6 +744,12 @@ namespace CapaPresentacion
             FormularioParametros.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioParametros);
             FormularioParametros.Show();
+
+            FormularioParametros.btnActualizar.Enabled = false;
+            FormularioParametros.btnGuardar.Enabled = false;
+
+            FormularioParametros.btnActualizar.Visible = false;
+            FormularioParametros.btnGuardar.Visible = false;
         }
 
         private void btnListarPeriodo_Click(object sender, EventArgs e)
@@ -734,6 +790,14 @@ namespace CapaPresentacion
             FormularioPeriodos.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioPeriodos);
             FormularioPeriodos.Show();
+
+            FormularioPeriodos.btnGuardar.Enabled = false;
+            FormularioPeriodos.btnEliminar.Enabled = false;
+            FormularioPeriodos.btnActualizar.Enabled = false;
+
+            FormularioPeriodos.btnGuardar.Visible = false;
+            FormularioPeriodos.btnEliminar.Visible = false;
+            FormularioPeriodos.btnActualizar.Visible = false;
         }
 
         private void btnInsertarPeriodo_Click(object sender, EventArgs e)
@@ -774,6 +838,12 @@ namespace CapaPresentacion
             FormularioPeriodos.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioPeriodos);
             FormularioPeriodos.Show();
+
+            FormularioPeriodos.btnEliminar.Enabled = false;
+            FormularioPeriodos.btnActualizar.Enabled = false;
+
+            FormularioPeriodos.btnEliminar.Visible = false;
+            FormularioPeriodos.btnActualizar.Visible = false;
         }
 
         private void btnActualizarPeriodo_Click(object sender, EventArgs e)
@@ -814,6 +884,12 @@ namespace CapaPresentacion
             FormularioPeriodos.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioPeriodos);
             FormularioPeriodos.Show();
+
+            FormularioPeriodos.btnEliminar.Enabled = false;
+            FormularioPeriodos.btnGuardar.Enabled = false;
+
+            FormularioPeriodos.btnEliminar.Visible = false;
+            FormularioPeriodos.btnGuardar.Visible = false;
         }
 
         private void btnEliminarPeriodo_Click(object sender, EventArgs e)
@@ -854,6 +930,12 @@ namespace CapaPresentacion
             FormularioPeriodos.FormBorderStyle = FormBorderStyle.None;
             PanelVisualizador.Controls.Add(FormularioPeriodos);
             FormularioPeriodos.Show();
+
+            FormularioPeriodos.btnActualizar.Enabled = false;
+            FormularioPeriodos.btnGuardar.Enabled = false;
+
+            FormularioPeriodos.btnActualizar.Visible = false;
+            FormularioPeriodos.btnGuardar.Visible = false;
         }
     }
 }

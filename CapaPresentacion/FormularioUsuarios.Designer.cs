@@ -35,12 +35,9 @@
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.txtUsuario = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.txtContraseña = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.rbInsertar = new MaterialSkin.Controls.MaterialRadioButton();
-            this.rbActualizar = new MaterialSkin.Controls.MaterialRadioButton();
-            this.rbEliminar = new MaterialSkin.Controls.MaterialRadioButton();
-            this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialRaisedButton3 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.btnGuardar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.btnEliminar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.btnActualizar = new MaterialSkin.Controls.MaterialRaisedButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,7 +81,7 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(740, 179);
+            this.dataGridView1.Size = new System.Drawing.Size(740, 253);
             this.dataGridView1.TabIndex = 2;
             // 
             // materialLabel4
@@ -104,7 +101,7 @@
             // 
             this.txtUsuario.Depth = 0;
             this.txtUsuario.Hint = "Usuario";
-            this.txtUsuario.Location = new System.Drawing.Point(156, 376);
+            this.txtUsuario.Location = new System.Drawing.Point(133, 347);
             this.txtUsuario.MaxLength = 32767;
             this.txtUsuario.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtUsuario.Name = "txtUsuario";
@@ -121,7 +118,7 @@
             // 
             this.txtContraseña.Depth = 0;
             this.txtContraseña.Hint = "Contraseña";
-            this.txtContraseña.Location = new System.Drawing.Point(454, 376);
+            this.txtContraseña.Location = new System.Drawing.Point(418, 347);
             this.txtContraseña.MaxLength = 32767;
             this.txtContraseña.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtContraseña.Name = "txtContraseña";
@@ -134,117 +131,63 @@
             this.txtContraseña.TabStop = false;
             this.txtContraseña.UseSystemPasswordChar = false;
             // 
-            // rbInsertar
+            // btnGuardar
             // 
-            this.rbInsertar.AutoSize = true;
-            this.rbInsertar.Depth = 0;
-            this.rbInsertar.Font = new System.Drawing.Font("Roboto", 10F);
-            this.rbInsertar.Location = new System.Drawing.Point(117, 279);
-            this.rbInsertar.Margin = new System.Windows.Forms.Padding(0);
-            this.rbInsertar.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.rbInsertar.MouseState = MaterialSkin.MouseState.HOVER;
-            this.rbInsertar.Name = "rbInsertar";
-            this.rbInsertar.Ripple = true;
-            this.rbInsertar.Size = new System.Drawing.Size(127, 30);
-            this.rbInsertar.TabIndex = 22;
-            this.rbInsertar.TabStop = true;
-            this.rbInsertar.Text = "Insertar Usuario";
-            this.rbInsertar.UseVisualStyleBackColor = true;
+            this.btnGuardar.AutoSize = true;
+            this.btnGuardar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnGuardar.Depth = 0;
+            this.btnGuardar.Icon = null;
+            this.btnGuardar.Location = new System.Drawing.Point(352, 410);
+            this.btnGuardar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Primary = true;
+            this.btnGuardar.Size = new System.Drawing.Size(84, 36);
+            this.btnGuardar.TabIndex = 25;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
             // 
-            // rbActualizar
+            // btnEliminar
             // 
-            this.rbActualizar.AutoSize = true;
-            this.rbActualizar.Depth = 0;
-            this.rbActualizar.Font = new System.Drawing.Font("Roboto", 10F);
-            this.rbActualizar.Location = new System.Drawing.Point(296, 279);
-            this.rbActualizar.Margin = new System.Windows.Forms.Padding(0);
-            this.rbActualizar.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.rbActualizar.MouseState = MaterialSkin.MouseState.HOVER;
-            this.rbActualizar.Name = "rbActualizar";
-            this.rbActualizar.Ripple = true;
-            this.rbActualizar.Size = new System.Drawing.Size(142, 30);
-            this.rbActualizar.TabIndex = 23;
-            this.rbActualizar.TabStop = true;
-            this.rbActualizar.Text = "Actualizar Usuario";
-            this.rbActualizar.UseVisualStyleBackColor = true;
+            this.btnEliminar.AutoSize = true;
+            this.btnEliminar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnEliminar.Depth = 0;
+            this.btnEliminar.Icon = null;
+            this.btnEliminar.Location = new System.Drawing.Point(352, 410);
+            this.btnEliminar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Primary = true;
+            this.btnEliminar.Size = new System.Drawing.Size(83, 36);
+            this.btnEliminar.TabIndex = 26;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // rbEliminar
+            // btnActualizar
             // 
-            this.rbEliminar.AutoSize = true;
-            this.rbEliminar.Depth = 0;
-            this.rbEliminar.Font = new System.Drawing.Font("Roboto", 10F);
-            this.rbEliminar.Location = new System.Drawing.Point(484, 279);
-            this.rbEliminar.Margin = new System.Windows.Forms.Padding(0);
-            this.rbEliminar.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.rbEliminar.MouseState = MaterialSkin.MouseState.HOVER;
-            this.rbEliminar.Name = "rbEliminar";
-            this.rbEliminar.Ripple = true;
-            this.rbEliminar.Size = new System.Drawing.Size(130, 30);
-            this.rbEliminar.TabIndex = 24;
-            this.rbEliminar.TabStop = true;
-            this.rbEliminar.Text = "Eliminar Usuario";
-            this.rbEliminar.UseVisualStyleBackColor = true;
-            // 
-            // materialRaisedButton1
-            // 
-            this.materialRaisedButton1.AutoSize = true;
-            this.materialRaisedButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Icon = null;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(219, 455);
-            this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton1.Name = "materialRaisedButton1";
-            this.materialRaisedButton1.Primary = true;
-            this.materialRaisedButton1.Size = new System.Drawing.Size(84, 36);
-            this.materialRaisedButton1.TabIndex = 25;
-            this.materialRaisedButton1.Text = "Guardar";
-            this.materialRaisedButton1.UseVisualStyleBackColor = true;
-            // 
-            // materialRaisedButton2
-            // 
-            this.materialRaisedButton2.AutoSize = true;
-            this.materialRaisedButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialRaisedButton2.Depth = 0;
-            this.materialRaisedButton2.Icon = null;
-            this.materialRaisedButton2.Location = new System.Drawing.Point(418, 455);
-            this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton2.Name = "materialRaisedButton2";
-            this.materialRaisedButton2.Primary = true;
-            this.materialRaisedButton2.Size = new System.Drawing.Size(83, 36);
-            this.materialRaisedButton2.TabIndex = 26;
-            this.materialRaisedButton2.Text = "Eliminar";
-            this.materialRaisedButton2.UseVisualStyleBackColor = true;
-            // 
-            // materialRaisedButton3
-            // 
-            this.materialRaisedButton3.AutoSize = true;
-            this.materialRaisedButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialRaisedButton3.Depth = 0;
-            this.materialRaisedButton3.Icon = null;
-            this.materialRaisedButton3.Location = new System.Drawing.Point(309, 455);
-            this.materialRaisedButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton3.Name = "materialRaisedButton3";
-            this.materialRaisedButton3.Primary = true;
-            this.materialRaisedButton3.Size = new System.Drawing.Size(103, 36);
-            this.materialRaisedButton3.TabIndex = 27;
-            this.materialRaisedButton3.Text = "Actualizar";
-            this.materialRaisedButton3.UseVisualStyleBackColor = true;
+            this.btnActualizar.AutoSize = true;
+            this.btnActualizar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnActualizar.Depth = 0;
+            this.btnActualizar.Icon = null;
+            this.btnActualizar.Location = new System.Drawing.Point(343, 410);
+            this.btnActualizar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Primary = true;
+            this.btnActualizar.Size = new System.Drawing.Size(103, 36);
+            this.btnActualizar.TabIndex = 27;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
             // 
             // FormularioUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(803, 537);
-            this.Controls.Add(this.materialRaisedButton3);
-            this.Controls.Add(this.materialRaisedButton2);
-            this.Controls.Add(this.materialRaisedButton1);
-            this.Controls.Add(this.rbEliminar);
-            this.Controls.Add(this.rbActualizar);
-            this.Controls.Add(this.rbInsertar);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.materialLabel4);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.btnActualizar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormularioUsuarios";
             this.Text = "FormularioUsuarios";
@@ -261,11 +204,8 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
         public MaterialSkin.Controls.MaterialSingleLineTextField txtUsuario;
         public MaterialSkin.Controls.MaterialSingleLineTextField txtContraseña;
-        private MaterialSkin.Controls.MaterialRadioButton rbInsertar;
-        private MaterialSkin.Controls.MaterialRadioButton rbActualizar;
-        private MaterialSkin.Controls.MaterialRadioButton rbEliminar;
-        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
-        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton2;
-        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton3;
+        public MaterialSkin.Controls.MaterialRaisedButton btnActualizar;
+        public MaterialSkin.Controls.MaterialRaisedButton btnGuardar;
+        public MaterialSkin.Controls.MaterialRaisedButton btnEliminar;
     }
 }
