@@ -560,6 +560,20 @@ namespace CapaPresentacion
             btnInsertarPeriodo.Enabled = true;
             btnActualizarPeriodo.Enabled = true;
             btnEliminarPeriodo.Enabled = true;
+
+            var FormularioParametros = new FormularioParametros();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioParametros.TopLevel = false;
+            FormularioParametros.Dock = DockStyle.Fill;
+            FormularioParametros.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioParametros);
+            FormularioParametros.Show();
+
+
         }
 
         private void btnInsertarParametro_Click(object sender, EventArgs e)
@@ -588,6 +602,18 @@ namespace CapaPresentacion
             btnInsertarPeriodo.Enabled = true;
             btnActualizarPeriodo.Enabled = true;
             btnEliminarPeriodo.Enabled = true;
+
+            var FormularioParametros = new FormularioParametros();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioParametros.TopLevel = false;
+            FormularioParametros.Dock = DockStyle.Fill;
+            FormularioParametros.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioParametros);
+            FormularioParametros.Show();
         }
 
         private void btnActualizarParametro_Click(object sender, EventArgs e)
@@ -616,6 +642,18 @@ namespace CapaPresentacion
             btnInsertarPeriodo.Enabled = true;
             btnActualizarPeriodo.Enabled = true;
             btnEliminarPeriodo.Enabled = true;
+
+            var FormularioParametros = new FormularioParametros();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioParametros.TopLevel = false;
+            FormularioParametros.Dock = DockStyle.Fill;
+            FormularioParametros.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioParametros);
+            FormularioParametros.Show();
         }
 
         private void btnEliminarParametro_Click(object sender, EventArgs e)
@@ -644,6 +682,18 @@ namespace CapaPresentacion
             btnInsertarPeriodo.Enabled = true;
             btnActualizarPeriodo.Enabled = true;
             btnEliminarPeriodo.Enabled = true;
+
+            var FormularioParametros = new FormularioParametros();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioParametros.TopLevel = false;
+            FormularioParametros.Dock = DockStyle.Fill;
+            FormularioParametros.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioParametros);
+            FormularioParametros.Show();
         }
 
         private void btnListarPeriodo_Click(object sender, EventArgs e)
@@ -672,6 +722,18 @@ namespace CapaPresentacion
             btnInsertarPeriodo.Enabled = true;
             btnActualizarPeriodo.Enabled = true;
             btnEliminarPeriodo.Enabled = true;
+
+            var FormularioPeriodos = new FormularioPeriodos();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioPeriodos.TopLevel = false;
+            FormularioPeriodos.Dock = DockStyle.Fill;
+            FormularioPeriodos.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioPeriodos);
+            FormularioPeriodos.Show();
         }
 
         private void btnInsertarPeriodo_Click(object sender, EventArgs e)
@@ -700,6 +762,18 @@ namespace CapaPresentacion
             btnInsertarPeriodo.Enabled = false;
             btnActualizarPeriodo.Enabled = true;
             btnEliminarPeriodo.Enabled = true;
+
+            var FormularioPeriodos = new FormularioPeriodos();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioPeriodos.TopLevel = false;
+            FormularioPeriodos.Dock = DockStyle.Fill;
+            FormularioPeriodos.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioPeriodos);
+            FormularioPeriodos.Show();
         }
 
         private void btnActualizarPeriodo_Click(object sender, EventArgs e)
@@ -728,6 +802,18 @@ namespace CapaPresentacion
             btnInsertarPeriodo.Enabled = true;
             btnActualizarPeriodo.Enabled = false;
             btnEliminarPeriodo.Enabled = true;
+
+            var FormularioPeriodos = new FormularioPeriodos();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioPeriodos.TopLevel = false;
+            FormularioPeriodos.Dock = DockStyle.Fill;
+            FormularioPeriodos.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioPeriodos);
+            FormularioPeriodos.Show();
         }
 
         private void btnEliminarPeriodo_Click(object sender, EventArgs e)
@@ -756,6 +842,18 @@ namespace CapaPresentacion
             btnInsertarPeriodo.Enabled = true;
             btnActualizarPeriodo.Enabled = true;
             btnEliminarPeriodo.Enabled = false;
+
+            var FormularioPeriodos = new FormularioPeriodos();
+            if (PanelVisualizador.Controls.Count >= default(int))
+            {
+                //PanelVisualizador.Controls.RemoveAt(default(int));
+                PanelVisualizador.Controls.Clear();
+            }
+            FormularioPeriodos.TopLevel = false;
+            FormularioPeriodos.Dock = DockStyle.Fill;
+            FormularioPeriodos.FormBorderStyle = FormBorderStyle.None;
+            PanelVisualizador.Controls.Add(FormularioPeriodos);
+            FormularioPeriodos.Show();
         }
     }
 }
