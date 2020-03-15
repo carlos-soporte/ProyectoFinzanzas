@@ -307,13 +307,13 @@ GO
 
 --Listar Periodo.
 CREATE PROCEDURE SP_ListarPeriodo
-@idPeriodo INT
 AS
 BEGIN
-	SELECT * FROM Periodos WHERE idPeriodo=@idPeriodo
+	SELECT * FROM Periodos
 END
 GO
 
+select * from Periodos
 -----CRUD PARA LOS USUARIOS
 
 --INSERTAR
@@ -361,4 +361,24 @@ AS
 BEGIN
 	SELECT * FROM Usuarios
 END
+GO
+
+
+--algunos registros de prueba
+exec SP_insertarUsuario 'carlos','1234'
+GO
+
+exec SP_insertarUsuario 'steven','4321'
+GO
+
+exec SP_insertarUsuario 'PascualBravo','1234'
+GO
+
+exec SP_insertarUsuario 'PascualFeliz','1234'
+GO
+
+exec SP_insertarUsuario 'PascualTriste','1234'
+GO
+
+exec SP_insertarUsuario 'PascualAlegre','1234'
 GO

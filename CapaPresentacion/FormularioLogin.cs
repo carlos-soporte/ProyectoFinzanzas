@@ -25,13 +25,27 @@ namespace CapaPresentacion
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            DataTable dataTable = new DataTable();
+            
 
-            //var parametros = new[]
-            //{
-            //    new SqlParameter()
-            //}
-            //new CapaDeDatos.Conexion().EjecutarStoredProcedureDeListado()
+            var DataTable = new CapaDeNegocios.Usuarios().ListarUsuarios();
+
+            for(int i = 0; i < DataTable.Rows.Count; i++)
+            {
+                for(int j = 0; j < DataTable.Columns.Count; j++)
+                {
+                    if(txtUsuario.Text==DataTable.Rows[i][1].ToString() && txtContraseña.Text == DataTable.Rows[i][2].ToString())
+                    {
+                        MessageBox.Show("Datos correctos, bienvenid@ al sistema.", "¡Bienvenid@!", MessageBoxButtons.OK, MessageBoxIcon.Information); 
+                        this.Hide();
+                        new FormularioMenu().Show();
+                        break;
+                    }
+                }
+            }
+
+
+            MessageBox.Show("Datos incorrectos, intentelo de nuevo.", "¡Error!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            return;
         }
 
         private void FormularioLogin_MouseDown(object sender, MouseEventArgs e)
